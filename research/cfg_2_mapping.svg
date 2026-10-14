@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="760" viewBox="0 0 910 760">
+<rect width="910" height="760" fill="#101827"/>
+<style>text{font-family:Arial,sans-serif;fill:#e2e8f0}.muted{fill:#a6b8ce}</style>
+<text x="35" y="40" font-size="25" font-weight="bold">2 x 2 | Retained accumulator registers</text>
+<text x="35" y="69" font-size="15" class="muted">Final DEF coordinates; native GDS instance names and transforms cross-checked</text>
+<rect x="65" y="115.000" width="432.577" height="445.000" fill="#182536" stroke="#8493a8"/>
+<circle cx="121.506" cy="437.067" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 0: _7167_ (48.76, 106.08) um</title></circle>
+<circle cx="110.845" cy="449.676" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 1: _7168_ (39.56, 95.2) um</title></circle>
+<circle cx="120.440" cy="424.459" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 2: _7169_ (47.84, 116.96) um</title></circle>
+<circle cx="117.775" cy="411.850" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 3: _7170_ (45.54, 127.84) um</title></circle>
+<circle cx="127.370" cy="402.394" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 4: _7171_ (53.82, 136.0) um</title></circle>
+<circle cx="136.966" cy="396.090" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 5: _7172_ (62.1, 141.44) um</title></circle>
+<circle cx="132.168" cy="386.633" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 6: _7173_ (57.96, 149.6) um</title></circle>
+<circle cx="141.230" cy="374.025" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 7: _7174_ (65.78, 160.48) um</title></circle>
+<circle cx="154.024" cy="307.830" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 8: _7175_ (76.82, 217.6) um</title></circle>
+<circle cx="164.153" cy="310.982" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 9: _7176_ (85.56, 214.88) um</title></circle>
+<circle cx="167.351" cy="298.374" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 10: _7177_ (88.32, 225.76) um</title></circle>
+<circle cx="163.620" cy="276.309" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 11: _7178_ (85.1, 244.8) um</title></circle>
+<circle cx="162.021" cy="254.244" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 12: _7179_ (83.72, 263.84) um</title></circle>
+<circle cx="159.355" cy="244.788" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 13: _7180_ (81.42, 272.0) um</title></circle>
+<circle cx="155.624" cy="225.875" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 14: _7181_ (78.2, 288.32) um</title></circle>
+<circle cx="140.697" cy="222.723" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 15: _7182_ (65.32, 291.04) um</title></circle>
+<circle cx="112.977" cy="197.506" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 16: _7183_ (41.4, 312.8) um</title></circle>
+<circle cx="112.977" cy="184.897" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 17: _7184_ (41.4, 323.68) um</title></circle>
+<circle cx="123.639" cy="194.354" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 18: _7185_ (50.6, 315.52) um</title></circle>
+<circle cx="147.094" cy="206.962" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 19: _7186_ (70.84, 304.64) um</title></circle>
+<circle cx="164.686" cy="213.266" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 20: _7187_ (86.02, 299.2) um</title></circle>
+<circle cx="173.748" cy="184.897" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 21: _7188_ (93.84, 323.68) um</title></circle>
+<circle cx="198.270" cy="184.897" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 22: _7189_ (115.0, 323.68) um</title></circle>
+<circle cx="192.939" cy="194.354" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 23: _7190_ (110.4, 315.52) um</title></circle>
+<circle cx="194.538" cy="203.810" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 24: _7191_ (111.78, 307.36) um</title></circle>
+<circle cx="191.873" cy="229.027" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 25: _7192_ (109.48, 285.6) um</title></circle>
+<circle cx="178.013" cy="232.179" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 26: _7193_ (97.52, 282.88) um</title></circle>
+<circle cx="164.686" cy="232.179" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 27: _7194_ (86.02, 282.88) um</title></circle>
+<circle cx="174.281" cy="266.852" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 28: _7195_ (94.3, 252.96) um</title></circle>
+<circle cx="180.145" cy="295.222" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 29: _7196_ (99.36, 228.48) um</title></circle>
+<circle cx="205.200" cy="304.678" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 30: _7197_ (120.98, 220.32) um</title></circle>
+<circle cx="211.064" cy="288.917" r="2.6" fill="#60a5fa"><title>PE(0,0) bit 31: _7198_ (126.04, 233.92) um</title></circle>
+<circle cx="222.259" cy="455.980" r="2.6" fill="#f472b6"><title>PE(0,1) bit 0: _7115_ (135.7, 89.76) um</title></circle>
+<circle cx="228.656" cy="443.371" r="2.6" fill="#f472b6"><title>PE(0,1) bit 1: _7116_ (141.22, 100.64) um</title></circle>
+<circle cx="254.243" cy="446.524" r="2.6" fill="#f472b6"><title>PE(0,1) bit 2: _7117_ (163.3, 97.92) um</title></circle>
+<circle cx="276.633" cy="452.828" r="2.6" fill="#f472b6"><title>PE(0,1) bit 3: _7118_ (182.62, 92.48) um</title></circle>
+<circle cx="280.364" cy="490.653" r="2.6" fill="#f472b6"><title>PE(0,1) bit 4: _7119_ (185.84, 59.84) um</title></circle>
+<circle cx="243.049" cy="509.566" r="2.6" fill="#f472b6"><title>PE(0,1) bit 5: _7120_ (153.64, 43.52) um</title></circle>
+<circle cx="238.251" cy="496.958" r="2.6" fill="#f472b6"><title>PE(0,1) bit 6: _7121_ (149.5, 54.4) um</title></circle>
+<circle cx="236.652" cy="484.349" r="2.6" fill="#f472b6"><title>PE(0,1) bit 7: _7122_ (148.12, 65.28) um</title></circle>
+<circle cx="230.255" cy="474.893" r="2.6" fill="#f472b6"><title>PE(0,1) bit 8: _7123_ (142.6, 73.44) um</title></circle>
+<circle cx="218.527" cy="471.741" r="2.6" fill="#f472b6"><title>PE(0,1) bit 9: _7124_ (132.48, 76.16) um</title></circle>
+<circle cx="209.998" cy="462.284" r="2.6" fill="#f472b6"><title>PE(0,1) bit 10: _7125_ (125.12, 84.32) um</title></circle>
+<circle cx="196.671" cy="462.284" r="2.6" fill="#f472b6"><title>PE(0,1) bit 11: _7126_ (113.62, 84.32) um</title></circle>
+<circle cx="219.060" cy="446.524" r="2.6" fill="#f472b6"><title>PE(0,1) bit 12: _7127_ (132.94, 97.92) um</title></circle>
+<circle cx="216.928" cy="433.915" r="2.6" fill="#f472b6"><title>PE(0,1) bit 13: _7128_ (131.1, 108.8) um</title></circle>
+<circle cx="179.079" cy="418.154" r="2.6" fill="#f472b6"><title>PE(0,1) bit 14: _7129_ (98.44, 122.4) um</title></circle>
+<circle cx="221.725" cy="424.459" r="2.6" fill="#f472b6"><title>PE(0,1) bit 15: _7130_ (135.24, 116.96) um</title></circle>
+<circle cx="215.862" cy="415.002" r="2.6" fill="#f472b6"><title>PE(0,1) bit 16: _7131_ (130.18, 125.12) um</title></circle>
+<circle cx="206.799" cy="405.546" r="2.6" fill="#f472b6"><title>PE(0,1) bit 17: _7132_ (122.36, 133.28) um</title></circle>
+<circle cx="170.017" cy="392.937" r="2.6" fill="#f472b6"><title>PE(0,1) bit 18: _7133_ (90.62, 144.16) um</title></circle>
+<circle cx="149.227" cy="392.937" r="2.6" fill="#f472b6"><title>PE(0,1) bit 19: _7134_ (72.68, 144.16) um</title></circle>
+<circle cx="166.285" cy="364.568" r="2.6" fill="#f472b6"><title>PE(0,1) bit 20: _7135_ (87.4, 168.64) um</title></circle>
+<circle cx="190.807" cy="339.351" r="2.6" fill="#f472b6"><title>PE(0,1) bit 21: _7136_ (108.56, 190.4) um</title></circle>
+<circle cx="208.398" cy="339.351" r="2.6" fill="#f472b6"><title>PE(0,1) bit 22: _7137_ (123.74, 190.4) um</title></circle>
+<circle cx="221.725" cy="342.503" r="2.6" fill="#f472b6"><title>PE(0,1) bit 23: _7138_ (135.24, 187.68) um</title></circle>
+<circle cx="243.049" cy="345.656" r="2.6" fill="#f472b6"><title>PE(0,1) bit 24: _7139_ (153.64, 184.96) um</title></circle>
+<circle cx="229.189" cy="348.808" r="2.6" fill="#f472b6"><title>PE(0,1) bit 25: _7140_ (141.68, 182.24) um</title></circle>
+<circle cx="246.247" cy="364.568" r="2.6" fill="#f472b6"><title>PE(0,1) bit 26: _7141_ (156.4, 168.64) um</title></circle>
+<circle cx="242.516" cy="377.177" r="2.6" fill="#f472b6"><title>PE(0,1) bit 27: _7142_ (153.18, 157.76) um</title></circle>
+<circle cx="236.652" cy="383.481" r="2.6" fill="#f472b6"><title>PE(0,1) bit 28: _7143_ (148.12, 152.32) um</title></circle>
+<circle cx="240.916" cy="389.785" r="2.6" fill="#f472b6"><title>PE(0,1) bit 29: _7144_ (151.8, 146.88) um</title></circle>
+<circle cx="271.302" cy="430.763" r="2.6" fill="#f472b6"><title>PE(0,1) bit 30: _7145_ (178.02, 111.52) um</title></circle>
+<circle cx="273.967" cy="421.307" r="2.6" fill="#f472b6"><title>PE(0,1) bit 31: _7146_ (180.32, 119.68) um</title></circle>
+<circle cx="297.423" cy="326.743" r="2.6" fill="#34d399"><title>PE(1,0) bit 0: _7072_ (200.56, 201.28) um</title></circle>
+<circle cx="272.368" cy="333.047" r="2.6" fill="#34d399"><title>PE(1,0) bit 1: _7073_ (178.94, 195.84) um</title></circle>
+<circle cx="296.357" cy="314.134" r="2.6" fill="#34d399"><title>PE(1,0) bit 2: _7074_ (199.64, 212.16) um</title></circle>
+<circle cx="294.757" cy="304.678" r="2.6" fill="#34d399"><title>PE(1,0) bit 3: _7075_ (198.26, 220.32) um</title></circle>
+<circle cx="294.757" cy="292.069" r="2.6" fill="#34d399"><title>PE(1,0) bit 4: _7076_ (198.26, 231.2) um</title></circle>
+<circle cx="299.555" cy="279.461" r="2.6" fill="#34d399"><title>PE(1,0) bit 5: _7077_ (202.4, 242.08) um</title></circle>
+<circle cx="283.030" cy="266.852" r="2.6" fill="#34d399"><title>PE(1,0) bit 6: _7078_ (188.14, 252.96) um</title></circle>
+<circle cx="281.430" cy="254.244" r="2.6" fill="#34d399"><title>PE(1,0) bit 7: _7079_ (186.76, 263.84) um</title></circle>
+<circle cx="285.162" cy="181.745" r="2.6" fill="#34d399"><title>PE(1,0) bit 8: _7080_ (189.98, 326.4) um</title></circle>
+<circle cx="280.897" cy="194.354" r="2.6" fill="#34d399"><title>PE(1,0) bit 9: _7081_ (186.3, 315.52) um</title></circle>
+<circle cx="301.154" cy="178.593" r="2.6" fill="#34d399"><title>PE(1,0) bit 10: _7082_ (203.78, 329.12) um</title></circle>
+<circle cx="325.676" cy="178.593" r="2.6" fill="#34d399"><title>PE(1,0) bit 11: _7083_ (224.94, 329.12) um</title></circle>
+<circle cx="341.135" cy="178.593" r="2.6" fill="#34d399"><title>PE(1,0) bit 12: _7084_ (238.28, 329.12) um</title></circle>
+<circle cx="358.727" cy="181.745" r="2.6" fill="#34d399"><title>PE(1,0) bit 13: _7085_ (253.46, 326.4) um</title></circle>
+<circle cx="375.786" cy="181.745" r="2.6" fill="#34d399"><title>PE(1,0) bit 14: _7086_ (268.18, 326.4) um</title></circle>
+<circle cx="385.381" cy="191.201" r="2.6" fill="#34d399"><title>PE(1,0) bit 15: _7087_ (276.46, 318.24) um</title></circle>
+<circle cx="424.829" cy="194.354" r="2.6" fill="#34d399"><title>PE(1,0) bit 16: _7088_ (310.5, 315.52) um</title></circle>
+<circle cx="410.436" cy="191.201" r="2.6" fill="#34d399"><title>PE(1,0) bit 17: _7089_ (298.08, 318.24) um</title></circle>
+<circle cx="393.910" cy="251.092" r="2.6" fill="#34d399"><title>PE(1,0) bit 18: _7090_ (283.82, 266.56) um</title></circle>
+<circle cx="415.767" cy="244.788" r="2.6" fill="#34d399"><title>PE(1,0) bit 19: _7091_ (302.68, 272.0) um</title></circle>
+<circle cx="431.759" cy="279.461" r="2.6" fill="#34d399"><title>PE(1,0) bit 20: _7092_ (316.48, 242.08) um</title></circle>
+<circle cx="433.358" cy="304.678" r="2.6" fill="#34d399"><title>PE(1,0) bit 21: _7093_ (317.86, 220.32) um</title></circle>
+<circle cx="420.031" cy="276.309" r="2.6" fill="#34d399"><title>PE(1,0) bit 22: _7094_ (306.36, 244.8) um</title></circle>
+<circle cx="400.840" cy="266.852" r="2.6" fill="#34d399"><title>PE(1,0) bit 23: _7095_ (289.8, 252.96) um</title></circle>
+<circle cx="385.381" cy="273.157" r="2.6" fill="#34d399"><title>PE(1,0) bit 24: _7096_ (276.46, 247.52) um</title></circle>
+<circle cx="389.646" cy="260.548" r="2.6" fill="#34d399"><title>PE(1,0) bit 25: _7097_ (280.14, 258.4) um</title></circle>
+<circle cx="385.914" cy="257.396" r="2.6" fill="#34d399"><title>PE(1,0) bit 26: _7098_ (276.92, 261.12) um</title></circle>
+<circle cx="370.988" cy="326.743" r="2.6" fill="#34d399"><title>PE(1,0) bit 27: _7099_ (264.04, 201.28) um</title></circle>
+<circle cx="341.668" cy="320.439" r="2.6" fill="#34d399"><title>PE(1,0) bit 28: _7100_ (238.74, 206.72) um</title></circle>
+<circle cx="312.349" cy="279.461" r="2.6" fill="#34d399"><title>PE(1,0) bit 29: _7101_ (213.44, 242.08) um</title></circle>
+<circle cx="311.283" cy="317.286" r="2.6" fill="#34d399"><title>PE(1,0) bit 30: _7102_ (212.52, 209.44) um</title></circle>
+<circle cx="320.878" cy="317.286" r="2.6" fill="#34d399"><title>PE(1,0) bit 31: _7103_ (220.8, 209.44) um</title></circle>
+<circle cx="311.283" cy="418.154" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 0: _7029_ (212.52, 122.4) um</title></circle>
+<circle cx="298.489" cy="427.611" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 1: _7030_ (201.48, 114.24) um</title></circle>
+<circle cx="286.228" cy="427.611" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 2: _7031_ (190.9, 114.24) um</title></circle>
+<circle cx="281.430" cy="380.329" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 3: _7032_ (186.76, 155.04) um</title></circle>
+<circle cx="281.430" cy="367.720" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 4: _7033_ (186.76, 165.92) um</title></circle>
+<circle cx="311.283" cy="342.503" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 5: _7034_ (212.52, 187.68) um</title></circle>
+<circle cx="342.202" cy="339.351" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 6: _7035_ (239.2, 190.4) um</title></circle>
+<circle cx="375.252" cy="351.960" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 7: _7036_ (267.72, 179.52) um</title></circle>
+<circle cx="390.712" cy="377.177" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 8: _7037_ (281.06, 157.76) um</title></circle>
+<circle cx="398.708" cy="364.568" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 9: _7038_ (287.96, 168.64) um</title></circle>
+<circle cx="424.829" cy="389.785" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 10: _7039_ (310.5, 146.88) um</title></circle>
+<circle cx="418.432" cy="396.090" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 11: _7040_ (304.98, 141.44) um</title></circle>
+<circle cx="436.557" cy="399.242" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 12: _7041_ (320.62, 138.72) um</title></circle>
+<circle cx="445.619" cy="411.850" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 13: _7042_ (328.44, 127.84) um</title></circle>
+<circle cx="455.748" cy="433.915" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 14: _7043_ (337.18, 108.8) um</title></circle>
+<circle cx="460.545" cy="455.980" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 15: _7044_ (341.32, 89.76) um</title></circle>
+<circle cx="459.479" cy="478.045" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 16: _7045_ (340.4, 70.72) um</title></circle>
+<circle cx="458.946" cy="503.262" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 17: _7046_ (339.94, 48.96) um</title></circle>
+<circle cx="452.549" cy="528.479" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 18: _7047_ (334.42, 27.2) um</title></circle>
+<circle cx="460.545" cy="493.805" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 19: _7048_ (341.32, 57.12) um</title></circle>
+<circle cx="400.840" cy="481.197" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 20: _7049_ (289.8, 68.0) um</title></circle>
+<circle cx="385.914" cy="478.045" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 21: _7050_ (276.92, 70.72) um</title></circle>
+<circle cx="385.914" cy="528.479" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 22: _7051_ (276.92, 27.2) um</title></circle>
+<circle cx="379.517" cy="537.935" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 23: _7052_ (271.4, 19.04) um</title></circle>
+<circle cx="357.128" cy="528.479" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 24: _7053_ (252.08, 27.2) um</title></circle>
+<circle cx="365.657" cy="478.045" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 25: _7054_ (259.44, 70.72) um</title></circle>
+<circle cx="328.875" cy="496.958" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 26: _7055_ (227.7, 54.4) um</title></circle>
+<circle cx="341.668" cy="484.349" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 27: _7056_ (238.74, 65.28) um</title></circle>
+<circle cx="356.062" cy="478.045" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 28: _7057_ (251.16, 70.72) um</title></circle>
+<circle cx="298.489" cy="481.197" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 29: _7058_ (201.48, 68.0) um</title></circle>
+<circle cx="312.349" cy="430.763" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 30: _7059_ (213.44, 111.52) um</title></circle>
+<circle cx="305.419" cy="452.828" r="2.6" fill="#fbbf24"><title>PE(1,1) bit 31: _7060_ (207.46, 92.48) um</title></circle>
+<circle cx="115.110" cy="462.284" r="9" fill="none" stroke="white" stroke-width="2"/>
+<text x="127.110" y="453.284" font-size="17" font-weight="bold">L</text>
+<circle cx="273.967" cy="421.307" r="9" fill="none" stroke="white" stroke-width="2"/>
+<text x="285.967" y="412.307" font-size="17" font-weight="bold">C</text>
+<circle cx="635" cy="118" r="5" fill="#60a5fa"/>
+<text x="650" y="123" font-size="14">PE(0,0) : 32 FFs</text>
+<circle cx="635" cy="144" r="5" fill="#f472b6"/>
+<text x="650" y="149" font-size="14">PE(0,1) : 32 FFs</text>
+<circle cx="635" cy="170" r="5" fill="#34d399"/>
+<text x="650" y="175" font-size="14">PE(1,0) : 32 FFs</text>
+<circle cx="635" cy="196" r="5" fill="#fbbf24"/>
+<text x="650" y="201" font-size="14">PE(1,1) : 32 FFs</text>
+<text x="65" y="584" font-size="13" class="muted">0</text>
+<text x="442.577" y="584" font-size="13" class="muted">373.275 um</text>
+<text x="300" y="606" font-size="14" class="muted">Physical x coordinate</text>
+<text x="65" y="105.000" font-size="13" class="muted">y = 383.995 um</text>
+<text x="35" y="635" font-size="14" class="muted">L: PE(0,0) A forwarding register[1] / _7149_/Q</text>
+<text x="35" y="660" font-size="14" class="muted">C: PE(0,1) accumulator[31] / _7146_/D</text>
+<text x="35" y="688" font-size="14" class="muted">Worst R2R setup path: slack 4.581582 ns at 20 ns; fixed-layout STA.</text>
+<text x="35" y="718" font-size="14" class="muted">Points are FF placement anchors. Colors identify proven state ownership, not PE boundaries.</text>
+<text x="35" y="741" font-size="14" class="muted">This coordinate map is not a GDS rendering or routed-path drawing. No new EDA measurement.</text>
+</svg>

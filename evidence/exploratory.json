@@ -1,0 +1,1209 @@
+{
+  "analysis_mode": "TWO_CONFIGURATION_EXPLORATORY",
+  "area_analysis": {
+    "area_metric": "design__core__area",
+    "areas": [
+      {
+        "array_size": 2,
+        "core_area_um2": 130964
+      },
+      {
+        "array_size": 4,
+        "core_area_um2": 531820
+      }
+    ],
+    "budget_domain": "All nonnegative budgets across every distinct observed core-area breakpoint.",
+    "feasibility_rule": "A_core <= B (inclusive; no area rounding or epsilon)",
+    "interpretation": "Area exclusion is separate from unconstrained timing ordering and does not count as reversal.",
+    "intervals": [
+      {
+        "budget_lower_um2": 0,
+        "budget_upper_um2": 130964,
+        "canonical_budget_um2": 0,
+        "feasible_array_sizes": [],
+        "lower_inclusive": true,
+        "upper_inclusive": false,
+        "upper_unbounded": false,
+        "workloads": [
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W1"
+          },
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W2"
+          },
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W3"
+          },
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W4"
+          },
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W5"
+          },
+          {
+            "architecture_winner_set": [],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [],
+            "selection_status": "NO_FEASIBLE_CONFIGURATION",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": null,
+            "workload_id": "W6"
+          }
+        ]
+      },
+      {
+        "budget_lower_um2": 130964,
+        "budget_upper_um2": 531820,
+        "canonical_budget_um2": 130964,
+        "feasible_array_sizes": [
+          2
+        ],
+        "lower_inclusive": true,
+        "upper_inclusive": false,
+        "upper_unbounded": false,
+        "workloads": [
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W1"
+          },
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W2"
+          },
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W3"
+          },
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W4"
+          },
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W5"
+          },
+          {
+            "architecture_winner_set": [
+              2
+            ],
+            "excluded_unconstrained_architecture_winners": [
+              4
+            ],
+            "excluded_unconstrained_implementation_winners": [
+              4
+            ],
+            "implementation_winner_set": [
+              2
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W6"
+          }
+        ]
+      },
+      {
+        "budget_lower_um2": 531820,
+        "budget_upper_um2": null,
+        "canonical_budget_um2": 531820,
+        "feasible_array_sizes": [
+          2,
+          4
+        ],
+        "lower_inclusive": true,
+        "upper_inclusive": false,
+        "upper_unbounded": true,
+        "workloads": [
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W1"
+          },
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W2"
+          },
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W3"
+          },
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W4"
+          },
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W5"
+          },
+          {
+            "architecture_winner_set": [
+              4
+            ],
+            "excluded_unconstrained_architecture_winners": [],
+            "excluded_unconstrained_implementation_winners": [],
+            "implementation_winner_set": [
+              4
+            ],
+            "selection_status": "agreement",
+            "unconstrained_architecture_winner_set": [
+              4
+            ],
+            "unconstrained_implementation_winner_set": [
+              4
+            ],
+            "winner_set_exact_agreement": true,
+            "workload_id": "W6"
+          }
+        ]
+      }
+    ],
+    "measurement_boundary": "Compute-fabric core under the historical common recipe; not complete-chip area.",
+    "units": "um^2"
+  },
+  "exploratory_qualified_runs": [
+    "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002",
+    "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002"
+  ],
+  "functional": {
+    "analyzed_array_sizes": [
+      2,
+      4
+    ],
+    "frozen_workload_cases": [
+      {
+        "K": 4,
+        "M": 4,
+        "N": 4,
+        "array_size": 2,
+        "case_id": "W1",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "b18cfd2b6fc35e534fbefac5af8a29b2b952515bc6c1cb5a57492474baa93cf3",
+        "model_cycles": 28,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 28
+      },
+      {
+        "K": 4,
+        "M": 4,
+        "N": 4,
+        "array_size": 4,
+        "case_id": "W1",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "b18cfd2b6fc35e534fbefac5af8a29b2b952515bc6c1cb5a57492474baa93cf3",
+        "model_cycles": 11,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 11
+      },
+      {
+        "K": 8,
+        "M": 8,
+        "N": 8,
+        "array_size": 2,
+        "case_id": "W2",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "549c2f8507336bad2db6e4e96ec432a7e7ebc4c61ba10ab1f8a619f92ecfe8e2",
+        "model_cycles": 176,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 176
+      },
+      {
+        "K": 8,
+        "M": 8,
+        "N": 8,
+        "array_size": 4,
+        "case_id": "W2",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "549c2f8507336bad2db6e4e96ec432a7e7ebc4c61ba10ab1f8a619f92ecfe8e2",
+        "model_cycles": 60,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 60
+      },
+      {
+        "K": 16,
+        "M": 16,
+        "N": 16,
+        "array_size": 2,
+        "case_id": "W3",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "83e596ee7ccee4ca9a6bc5a0580406758145f9a62b367d3d3cf3e33ec8f7e8e7",
+        "model_cycles": 1216,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 1216
+      },
+      {
+        "K": 16,
+        "M": 16,
+        "N": 16,
+        "array_size": 4,
+        "case_id": "W3",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "83e596ee7ccee4ca9a6bc5a0580406758145f9a62b367d3d3cf3e33ec8f7e8e7",
+        "model_cycles": 368,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 368
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 32,
+        "array_size": 2,
+        "case_id": "W4",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "a65cda3a51323c5524cdeaa1b4fe01517891032132ae86bcb1b93fcf58ff7971",
+        "model_cycles": 8960,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 8960
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 32,
+        "array_size": 4,
+        "case_id": "W4",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "a65cda3a51323c5524cdeaa1b4fe01517891032132ae86bcb1b93fcf58ff7971",
+        "model_cycles": 2496,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 2496
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 8,
+        "array_size": 2,
+        "case_id": "W5",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "bf5733e8df90199b008e5eec31c1db7f8956782172604d2b54e387202a451e44",
+        "model_cycles": 2240,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 2240
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 8,
+        "array_size": 4,
+        "case_id": "W5",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "bf5733e8df90199b008e5eec31c1db7f8956782172604d2b54e387202a451e44",
+        "model_cycles": 624,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 624
+      },
+      {
+        "K": 8,
+        "M": 32,
+        "N": 32,
+        "array_size": 2,
+        "case_id": "W6",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "099dcd4f203ca8b745af5de0863f8f7b851d199b58b167d5d1d352ad84e85130",
+        "model_cycles": 2816,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S2/reference.json",
+          "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 2816
+      },
+      {
+        "K": 8,
+        "M": 32,
+        "N": 32,
+        "array_size": 4,
+        "case_id": "W6",
+        "category": "frozen_workload_sanity",
+        "cycle_unit": "rising_clock_edges_including_tile_clear",
+        "input_sha256": "099dcd4f203ca8b745af5de0863f8f7b851d199b58b167d5d1d352ad84e85130",
+        "model_cycles": 960,
+        "raw_sources": [
+          "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "results/raw/phase2/functional/REG_002/S4/reference.json",
+          "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl"
+        ],
+        "rtl_cycles": 960
+      }
+    ],
+    "meaning": "Reparsed historical numerical/cycle verification, not a new simulation.",
+    "run_id": "REG_002",
+    "total_historical_case_executions": 441,
+    "validated_array_sizes": [
+      2,
+      4,
+      8
+    ]
+  },
+  "limitations": [
+    "Two configurations selected after the original 8x8 failure; exploratory, not original three-configuration research.",
+    "One fixed implementation per size; no repeated runs, process-variation estimate, or independent per-workload timing measurements.",
+    "Six frozen GEMMs and compute-fabric boundary only; no inference about rejected 8x8 timing, area, ranking, or physical feasibility.",
+    "Frequency is a fixed-layout R2R STA estimate, not measured silicon Fmax or full I/O timing closure.",
+    "Preserved ordering in this subset does not establish general model-selection reliability."
+  ],
+  "original_family": {
+    "accepted_physical_runs": [],
+    "configurations": [
+      {
+        "array_size": 2,
+        "pass": true,
+        "qualification": "QUALIFIED_FINAL",
+        "run_id": "FINAL_002",
+        "run_path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002",
+        "status": "PASS"
+      },
+      {
+        "array_size": 4,
+        "pass": true,
+        "qualification": "QUALIFIED_FINAL",
+        "run_id": "FINAL_002",
+        "run_path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002",
+        "status": "PASS"
+      },
+      {
+        "array_size": 8,
+        "pass": false,
+        "qualification": "REJECTED_ENGINEERING_EVIDENCE",
+        "run_id": "FINAL_002",
+        "run_path": "results/raw/phase2/dac27/round2/physical/cfg_8x8/FINAL_002",
+        "status": "FAIL"
+      }
+    ],
+    "errors": [
+      "cfg_8x8: EvidenceError: DAC runner did not complete collection"
+    ],
+    "family": "FINAL_002",
+    "pass": false,
+    "purpose": "FINAL",
+    "status": "FAIL"
+  },
+  "rejected_physical_performance_used": false,
+  "schema_version": 1,
+  "scope": {
+    "array_sizes": [
+      2,
+      4
+    ],
+    "new_physical_runs": false,
+    "original_three_configuration_study_complete": false,
+    "post_result_subset": true,
+    "source_family": "FINAL_002",
+    "source_freeze_commit": "5239290e91f789d68fd8e4b282b54fdb086f6285",
+    "source_recipe": {
+      "bytes": 3073,
+      "path": "flow/dac27_candidate_02.json",
+      "sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41"
+    },
+    "workload_count": 6
+  },
+  "sources": [
+    {
+      "bytes": 470596,
+      "path": "results/processed/dac27_round4_physical_recheck.json",
+      "sha256": "a3837fa87c153b082cff6a4930c89eee1e35f61c5cb48b8688eb96e101da25ff"
+    },
+    {
+      "bytes": 470596,
+      "path": "results/processed/dac27_round2_physical.json",
+      "sha256": "a3837fa87c153b082cff6a4930c89eee1e35f61c5cb48b8688eb96e101da25ff"
+    },
+    {
+      "bytes": 1050,
+      "path": "results/raw/phase2/dac27/round2/final_002_selection.json",
+      "sha256": "a03992ed710e8a307c579fbfb994e4b6cb8170dc713a51a5d5d9fc9eaaecc2a2"
+    },
+    {
+      "bytes": 6429,
+      "path": "results/raw/phase2/dac27/round2/final_002_freeze.json",
+      "sha256": "f95d21bccfb96b20d0009fbae7615a59285583d7613279377f72279204ef7cab"
+    },
+    {
+      "bytes": 3073,
+      "path": "flow/dac27_candidate_02.json",
+      "sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41"
+    },
+    {
+      "bytes": 3000,
+      "path": "results/raw/phase2/dac27/round4/EXPLORATORY_001/README.md",
+      "sha256": "1f009f9a1bd360c7d0c21e7f11b8961d117dfc8206b6442819368a910e415522"
+    },
+    {
+      "bytes": 5469,
+      "path": "docs/DAC27_ROUND4_PROTOCOL.md",
+      "sha256": "7402fc69e1e20280aaedccb2d593299945e83a15c21c61dee54cca030832250b"
+    },
+    {
+      "bytes": 765978,
+      "path": "results/processed/phase2_functional_verification.json",
+      "sha256": "833c4982c9bfd4dc23053ca6da8579e2007b03029ab316ebe44f8f8f6187dfd9"
+    },
+    {
+      "bytes": 26,
+      "path": "results/raw/phase2/functional_selection.json",
+      "sha256": "c4822b98e9aad9f04b5fcce16dc3dcc4586b51984c003f87e652166ee78d1c7b"
+    },
+    {
+      "bytes": 1294,
+      "path": "PROJECT_FREEZE.json",
+      "sha256": "680277c1033337cea7a337b3a06efca5057f24c5af44f074c8f079f1b3204521"
+    },
+    {
+      "bytes": 5536,
+      "path": "docs/EXPERIMENT_PROTOCOL.md",
+      "sha256": "6984ff5600496cff35df70737a7ee66a8707e7f2bd2e2f01245274d7b2e888b5"
+    },
+    {
+      "bytes": 2470,
+      "path": "docs/PHASE2_TIMING_METHODOLOGY.md",
+      "sha256": "6ac01dc00004c0f70174323b5873a47dfab0d5e0b9aa669e7faca2966b262727"
+    },
+    {
+      "bytes": 21548,
+      "path": "scripts/analyze_dac27_round4_exploratory.py",
+      "sha256": "837f626f8b15288984259662eb70c48a29e75c249cdbe2e5c3a2013f166b077b"
+    },
+    {
+      "bytes": 21951,
+      "path": "scripts/collect_dac27_physical.py",
+      "sha256": "c40c60e73ee5ed5b426db5c68516c9d512b15223413837d90d8a4c1bb440a018"
+    },
+    {
+      "bytes": 21923,
+      "path": "scripts/analyze_final_results.py",
+      "sha256": "5e59a7e367fa7f3860334578daab3cf47e1e493a4df3aa544721d3e2cecc7624"
+    },
+    {
+      "bytes": 11465,
+      "path": "scripts/analyze_dac27_results.py",
+      "sha256": "7722d4b18ed2ad6c79a308a773a6450f5da10997d6a2062f36e476206ebdda23"
+    }
+  ],
+  "status": "PASS",
+  "tie_policy": {
+    "absolute_tolerance": 0.0,
+    "cycles_unit": "rising_clock_edges_including_tile_clear",
+    "implementation_latency_unit": "ns",
+    "logarithm": "natural",
+    "margin_change_absolute_tolerance": 1e-09,
+    "margin_change_tolerance_unit": "dimensionless natural-log ratio",
+    "pairwise": "If either layer ties, tied_or_indeterminate; otherwise equal order is preserved and opposite order reversed.",
+    "positive_quantity_comparison": "math.isclose(a,b,rel_tol=1e-9,abs_tol=0.0)",
+    "relative_tolerance": 1e-09,
+    "top1_agreement": "Identical unique winners count toward agreement/6; any multiwinner set is explicitly indeterminate.",
+    "winner_set": "Every configuration numerically tied with the minimum; sorted by array size."
+  },
+  "timing_analysis": {
+    "common_timing_correction": {
+      "interpretation": "The same two fixed-layout periods enter every workload; repeated margins are not independent physical samples.",
+      "ln_period_ratio_2_over_4": 0.06539866788167706,
+      "period_ratio_2_over_4": 1.0675845512281632,
+      "physical_implementations": 2
+    },
+    "configurations": [
+      {
+        "array_size": 2,
+        "cell_area_um2": 39103.8,
+        "core_area_um2": 130964,
+        "freeze_commit": "5239290e91f789d68fd8e4b282b54fdb086f6285",
+        "frequency_terminology": "post-route fixed-layout STA-derived frequency estimate",
+        "raw_provenance": {
+          "cell_area": {
+            "source": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+            "source_key": "design__instance__area",
+            "units": "um^2",
+            "value": 39103.8
+          },
+          "core_area": {
+            "source": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+            "source_key": "design__core__area",
+            "units": "um^2",
+            "value": 130964
+          },
+          "timing": {
+            "constraint_period": {
+              "source": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/resolved.json",
+              "source_key": "CLOCK_PERIOD",
+              "units": "ns",
+              "value": 20.0
+            },
+            "corner": "max_ss_100C_1v60",
+            "internal_path_count": 136,
+            "setup_worst_slack": {
+              "source": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/r2r.stdout.log",
+              "source_key": "PHASE2_R2R_SETUP_WS_NS",
+              "units": "ns",
+              "value": 4.581582
+            },
+            "sta_frequency": {
+              "derivation": "1000 / sta_period_ns",
+              "term": "post-route fixed-layout STA-derived frequency estimate",
+              "units": "MHz",
+              "value": 64.85749705319962
+            },
+            "sta_period": {
+              "derivation": "constraint_period_ns - setup_worst_slack_ns",
+              "units": "ns",
+              "value": 15.418417999999999
+            }
+          }
+        },
+        "recipe_sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41",
+        "resolved_recipe_sha256": "c549a0cddd479f7353884a0f829f348b8bc7c17196645daea39486470e1225a6",
+        "run_id": "FINAL_002",
+        "run_path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002",
+        "sta_frequency_MHz": 64.85749705319962,
+        "sta_period_ns": 15.418417999999999
+      },
+      {
+        "array_size": 4,
+        "cell_area_um2": 162386,
+        "core_area_um2": 531820,
+        "freeze_commit": "5239290e91f789d68fd8e4b282b54fdb086f6285",
+        "frequency_terminology": "post-route fixed-layout STA-derived frequency estimate",
+        "raw_provenance": {
+          "cell_area": {
+            "source": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+            "source_key": "design__instance__area",
+            "units": "um^2",
+            "value": 162386
+          },
+          "core_area": {
+            "source": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+            "source_key": "design__core__area",
+            "units": "um^2",
+            "value": 531820
+          },
+          "timing": {
+            "constraint_period": {
+              "source": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/resolved.json",
+              "source_key": "CLOCK_PERIOD",
+              "units": "ns",
+              "value": 20.0
+            },
+            "corner": "max_ss_100C_1v60",
+            "internal_path_count": 704,
+            "setup_worst_slack": {
+              "source": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/r2r.stdout.log",
+              "source_key": "PHASE2_R2R_SETUP_WS_NS",
+              "units": "ns",
+              "value": 5.557661
+            },
+            "sta_frequency": {
+              "derivation": "1000 / sta_period_ns",
+              "term": "post-route fixed-layout STA-derived frequency estimate",
+              "units": "MHz",
+              "value": 69.24086188532203
+            },
+            "sta_period": {
+              "derivation": "constraint_period_ns - setup_worst_slack_ns",
+              "units": "ns",
+              "value": 14.442339
+            }
+          }
+        },
+        "recipe_sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41",
+        "resolved_recipe_sha256": "c549a0cddd479f7353884a0f829f348b8bc7c17196645daea39486470e1225a6",
+        "run_id": "FINAL_002",
+        "run_path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002",
+        "sta_frequency_MHz": 69.24086188532203,
+        "sta_period_ns": 14.442339
+      }
+    ],
+    "latency_equation": "T_impl_ns = C_rtl * 1000 / F_sta_MHz",
+    "pairwise": {
+      "decisions": [
+        {
+          "M_arch": 0.9343092373768334,
+          "M_impl": 0.9997079052585104,
+          "absolute_margin_delta": 0.06539866788167703,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167703,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W1"
+        },
+        {
+          "M_arch": 1.076139432816051,
+          "M_impl": 1.141538100697728,
+          "absolute_margin_delta": 0.06539866788167714,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167714,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W2"
+        },
+        {
+          "M_arch": 1.1952391243571814,
+          "M_impl": 1.2606377922388585,
+          "absolute_margin_delta": 0.06539866788167714,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167714,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W3"
+        },
+        {
+          "M_arch": 1.278080776479658,
+          "M_impl": 1.343479444361335,
+          "absolute_margin_delta": 0.06539866788167692,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167692,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W4"
+        },
+        {
+          "M_arch": 1.278080776479658,
+          "M_impl": 1.343479444361335,
+          "absolute_margin_delta": 0.06539866788167692,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167692,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W5"
+        },
+        {
+          "M_arch": 1.076139432816051,
+          "M_impl": 1.141538100697728,
+          "absolute_margin_delta": 0.06539866788167714,
+          "architecture_order": 1,
+          "array_i": 2,
+          "array_j": 4,
+          "decision": "preserved",
+          "implementation_order": 1,
+          "margin_delta": 0.06539866788167714,
+          "margin_transformation": "widened",
+          "margin_unit": "dimensionless natural-log ratio",
+          "workload_id": "W6"
+        }
+      ],
+      "preserved": 6,
+      "reversed": 0,
+      "tied_or_indeterminate": 0,
+      "total_decisions": 6
+    },
+    "status": "COMPUTED_FROM_INDEPENDENTLY_QUALIFIED_TWO_CONFIGURATION_SUBSET",
+    "top1": {
+      "agreement_count": 6,
+      "disagreement_count": 0,
+      "tied_or_indeterminate_count": 0,
+      "total_workloads": 6
+    },
+    "workloads": [
+      {
+        "K": 4,
+        "M": 4,
+        "N": 4,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 431.715704,
+            "model_cycles": 28,
+            "rtl_cycles": 28
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 158.86572900000002,
+            "model_cycles": 11,
+            "rtl_cycles": 11
+          }
+        ],
+        "cycle_speedup_4_over_2": 2.5454545454545454,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 2.717487948580779,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W1"
+      },
+      {
+        "K": 8,
+        "M": 8,
+        "N": 8,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 2713.641568,
+            "model_cycles": 176,
+            "rtl_cycles": 176
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 866.54034,
+            "model_cycles": 60,
+            "rtl_cycles": 60
+          }
+        ],
+        "cycle_speedup_4_over_2": 2.933333333333333,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 3.1315813502692786,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W2"
+      },
+      {
+        "K": 16,
+        "M": 16,
+        "N": 16,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 18748.796288,
+            "model_cycles": 1216,
+            "rtl_cycles": 1216
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 5314.780752000001,
+            "model_cycles": 368,
+            "rtl_cycles": 368
+          }
+        ],
+        "cycle_speedup_4_over_2": 3.3043478260869565,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 3.5276706910148,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W3"
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 32,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 138149.02528,
+            "model_cycles": 8960,
+            "rtl_cycles": 8960
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 36048.078144,
+            "model_cycles": 2496,
+            "rtl_cycles": 2496
+          }
+        ],
+        "cycle_speedup_4_over_2": 3.58974358974359,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 3.832354799280586,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W4"
+      },
+      {
+        "K": 32,
+        "M": 32,
+        "N": 8,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 34537.25632,
+            "model_cycles": 2240,
+            "rtl_cycles": 2240
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 9012.019536,
+            "model_cycles": 624,
+            "rtl_cycles": 624
+          }
+        ],
+        "cycle_speedup_4_over_2": 3.58974358974359,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 3.832354799280586,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W5"
+      },
+      {
+        "K": 8,
+        "M": 32,
+        "N": 32,
+        "architecture_winner_set": [
+          4
+        ],
+        "configurations": [
+          {
+            "array_size": 2,
+            "implementation_latency_ns": 43418.265088,
+            "model_cycles": 2816,
+            "rtl_cycles": 2816
+          },
+          {
+            "array_size": 4,
+            "implementation_latency_ns": 13864.64544,
+            "model_cycles": 960,
+            "rtl_cycles": 960
+          }
+        ],
+        "cycle_speedup_4_over_2": 2.933333333333333,
+        "implementation_winner_set": [
+          4
+        ],
+        "sta_latency_speedup_4_over_2": 3.1315813502692786,
+        "top1": "agreement",
+        "winner_set_exact_agreement": true,
+        "workload_id": "W6"
+      }
+    ]
+  }
+}

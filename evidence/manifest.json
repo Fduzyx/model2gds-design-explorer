@@ -1,0 +1,299 @@
+{
+  "files": [
+    {
+      "bytes": 781,
+      "operation": "Generated documentation",
+      "path": "README.md",
+      "sha256": "b0e3ddda10e5bcaff1eae10a0c7b87b503b1066c7dea427c75637c5df12c733c"
+    },
+    {
+      "bytes": 40042,
+      "operation": "byte-identical copy",
+      "path": "exploratory.json",
+      "sha256": "453aa8144502d635e5b7eb0a00c0a135394d34beb04165187091e9ed91e42fcc",
+      "source": {
+        "bytes": 40042,
+        "path": "results/processed/dac27_round4_exploratory.json",
+        "sha256": "453aa8144502d635e5b7eb0a00c0a135394d34beb04165187091e9ed91e42fcc"
+      }
+    },
+    {
+      "bytes": 242206,
+      "operation": "byte-identical copy",
+      "path": "exploratory_summary.png",
+      "sha256": "f1d2d9ea66cd431669d888085689d013ac16b0b1ae0edd69cbde273b2698bfae",
+      "source": {
+        "bytes": 242206,
+        "path": "results/figures/dac27_round4_exploratory/exploratory_summary.png",
+        "sha256": "f1d2d9ea66cd431669d888085689d013ac16b0b1ae0edd69cbde273b2698bfae"
+      }
+    },
+    {
+      "bytes": 34470,
+      "operation": "byte-identical copy",
+      "path": "exploratory_summary.svg",
+      "sha256": "90eb704589913aaef9f44d0db12a6c5333f64e75a5e4f690912953b1cce95cc8",
+      "source": {
+        "bytes": 34470,
+        "path": "results/figures/dac27_round4_exploratory/exploratory_summary.svg",
+        "sha256": "90eb704589913aaef9f44d0db12a6c5333f64e75a5e4f690912953b1cce95cc8"
+      }
+    },
+    {
+      "bytes": 464097,
+      "operation": "Select the original six registered input matrices and matching historical RTL records",
+      "path": "functional_cases.json",
+      "sha256": "a375679b88b8c409755a2ea689cddc8620b0b8c072a61922f3673dbaa5cca561",
+      "sources": [
+        {
+          "bytes": 7072861,
+          "path": "results/raw/phase2/functional/REG_002/phase1_oracles/vectors.json",
+          "sha256": "292175337bb3d830d30971212bfd3845e9475a2a1e99ea85d99d39ff36240b3a"
+        },
+        {
+          "bytes": 765978,
+          "path": "results/processed/phase2_functional_verification.json",
+          "sha256": "833c4982c9bfd4dc23053ca6da8579e2007b03029ab316ebe44f8f8f6187dfd9"
+        }
+      ]
+    },
+    {
+      "bytes": 404970,
+      "operation": "Select only independently qualified members; preserve failed family status",
+      "path": "physical.json",
+      "sha256": "faf2faef5ad4e738668e734337fac744a8697c7b088955474e1ea2b9c67d5bb1",
+      "sources": [
+        {
+          "bytes": 470596,
+          "path": "results/processed/dac27_round2_physical.json",
+          "sha256": "a3837fa87c153b082cff6a4930c89eee1e35f61c5cb48b8688eb96e101da25ff"
+        }
+      ]
+    },
+    {
+      "bytes": 23391,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_2x2/final_state.json",
+      "sha256": "9c0be05c160d7a15acb668d31ddb6b2436dcffb6d54078afe025c35dddbbf534",
+      "source": {
+        "bytes": 23391,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+        "sha256": "9c0be05c160d7a15acb668d31ddb6b2436dcffb6d54078afe025c35dddbbf534"
+      }
+    },
+    {
+      "bytes": 51192,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_2x2/mapped_report.json",
+      "sha256": "ea19768d2714d80ea06796903c9c8bb18a02a36cd5317ccabede636b8d91268d",
+      "source": {
+        "bytes": 51192,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/mapped_report.json",
+        "sha256": "ea19768d2714d80ea06796903c9c8bb18a02a36cd5317ccabede636b8d91268d"
+      }
+    },
+    {
+      "bytes": 21177,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_2x2/post_route_state.json",
+      "sha256": "09c3d7543fdb7a186438c132b69d565ec01dddc6882fa149190d7f13185f0cec",
+      "source": {
+        "bytes": 21177,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/56-openroad-stapostpnr/state_out.json",
+        "sha256": "09c3d7543fdb7a186438c132b69d565ec01dddc6882fa149190d7f13185f0cec"
+      }
+    },
+    {
+      "bytes": 1073845,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_2x2/r2r.stdout.log",
+      "sha256": "74499e15a2d4f4daf78b56bae3c06558206712c634f34f79301f88bef9bce3fc",
+      "source": {
+        "bytes": 1073845,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/r2r.stdout.log",
+        "sha256": "74499e15a2d4f4daf78b56bae3c06558206712c634f34f79301f88bef9bce3fc"
+      }
+    },
+    {
+      "bytes": 23483,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_4x4/final_state.json",
+      "sha256": "32750a7317a86237258cacef61ea5553f2e1197a5fbab92a3c9d24179f39f684",
+      "source": {
+        "bytes": 23483,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/76-misc-reportmanufacturability/state_out.json",
+        "sha256": "32750a7317a86237258cacef61ea5553f2e1197a5fbab92a3c9d24179f39f684"
+      }
+    },
+    {
+      "bytes": 202907,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_4x4/mapped_report.json",
+      "sha256": "42abbb94ea412cbf1f6e35e00bad8edbdc975f82b11c32622d29e94b5837034a",
+      "source": {
+        "bytes": 202907,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/mapped_report.json",
+        "sha256": "42abbb94ea412cbf1f6e35e00bad8edbdc975f82b11c32622d29e94b5837034a"
+      }
+    },
+    {
+      "bytes": 21269,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_4x4/post_route_state.json",
+      "sha256": "13dfb28ec9473c038b7f8402c70ef3588767e36fd270a571f1ced907bdde83f9",
+      "source": {
+        "bytes": 21269,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/56-openroad-stapostpnr/state_out.json",
+        "sha256": "13dfb28ec9473c038b7f8402c70ef3588767e36fd270a571f1ced907bdde83f9"
+      }
+    },
+    {
+      "bytes": 5822789,
+      "operation": "byte-identical copy",
+      "path": "raw/cfg_4x4/r2r.stdout.log",
+      "sha256": "9f7db54e968c1fe97b1da8852e4b0be0e0cc9797628856220114a9a192b36075",
+      "source": {
+        "bytes": 5822789,
+        "path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/r2r.stdout.log",
+        "sha256": "9f7db54e968c1fe97b1da8852e4b0be0e0cc9797628856220114a9a192b36075"
+      }
+    },
+    {
+      "bytes": 6429,
+      "operation": "byte-identical copy",
+      "path": "raw/final_002_freeze.json",
+      "sha256": "f95d21bccfb96b20d0009fbae7615a59285583d7613279377f72279204ef7cab",
+      "source": {
+        "bytes": 6429,
+        "path": "results/raw/phase2/dac27/round2/final_002_freeze.json",
+        "sha256": "f95d21bccfb96b20d0009fbae7615a59285583d7613279377f72279204ef7cab"
+      }
+    },
+    {
+      "bytes": 3073,
+      "operation": "byte-identical copy",
+      "path": "raw/final_002_recipe.json",
+      "sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41",
+      "source": {
+        "bytes": 3073,
+        "path": "flow/dac27_candidate_02.json",
+        "sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41"
+      }
+    },
+    {
+      "bytes": 765978,
+      "operation": "byte-identical copy",
+      "path": "raw/historical_functional_qualification.json",
+      "sha256": "833c4982c9bfd4dc23053ca6da8579e2007b03029ab316ebe44f8f8f6187dfd9",
+      "source": {
+        "bytes": 765978,
+        "path": "results/processed/phase2_functional_verification.json",
+        "sha256": "833c4982c9bfd4dc23053ca6da8579e2007b03029ab316ebe44f8f8f6187dfd9"
+      }
+    },
+    {
+      "bytes": 49293,
+      "operation": "Original JSONL lines, bytes unchanged",
+      "path": "raw/rtl_S2_selected.jsonl",
+      "selected_lines": [
+        {
+          "case_id": "W1",
+          "line": 142,
+          "line_sha256": "d21d51acffbe3276c34a88a1e09f7a2d3083a33e9290a557f0b4a54945a69a14"
+        },
+        {
+          "case_id": "W2",
+          "line": 143,
+          "line_sha256": "d4b36aeb83d7b820da3cb9cf154914012e0260669daa08a71d76603463761a7d"
+        },
+        {
+          "case_id": "W3",
+          "line": 144,
+          "line_sha256": "7b67b3f2c40e246b6d76a6edb45ec1dc0f66f3b9e8a9455efebb8a1c5eabc037"
+        },
+        {
+          "case_id": "W4",
+          "line": 145,
+          "line_sha256": "734d80c15e3ab5a9b4a08f00ea97f0eda97842bf18098803a38dad22667b0a92"
+        },
+        {
+          "case_id": "W5",
+          "line": 146,
+          "line_sha256": "fa8ae5bac96410238e0fe8c93c09757c6e96830289bd347ff42576e3d41994a8"
+        },
+        {
+          "case_id": "W6",
+          "line": 147,
+          "line_sha256": "d29cfdf63c48fc263f54f1cb012f021358ad27e4c45784c5ef256f034fd8ae22"
+        }
+      ],
+      "sha256": "563f004dcafc1cb80b6ed0aa6a60d0d5c8f928a924bef7da1e9cab36beb5f8f1",
+      "source": {
+        "bytes": 94755,
+        "path": "results/raw/phase2/functional/REG_002/S2/rtl_results.jsonl",
+        "sha256": "42466c6360ec5ca00e6b8515e8c908cde514c49d7297a23cc566de6fd80775fb"
+      }
+    },
+    {
+      "bytes": 24915,
+      "operation": "Original JSONL lines, bytes unchanged",
+      "path": "raw/rtl_S4_selected.jsonl",
+      "selected_lines": [
+        {
+          "case_id": "W1",
+          "line": 142,
+          "line_sha256": "3dae80d650b1908bb4e2d50f9fda94daef21045cf4fb4f2db3142c18e6ca69ea"
+        },
+        {
+          "case_id": "W2",
+          "line": 143,
+          "line_sha256": "69a565c9def349f41827544886a2dd2fadad41601e5d688644b684f69b05f0a7"
+        },
+        {
+          "case_id": "W3",
+          "line": 144,
+          "line_sha256": "9ff771fdb6c7d51694fa26f658bf156939718907b29c0b5bfba91dec08aea8b5"
+        },
+        {
+          "case_id": "W4",
+          "line": 145,
+          "line_sha256": "2d939f4a4e9beb183a9dae72abf545b19c63617f3133a02b4c385bf46315a011"
+        },
+        {
+          "case_id": "W5",
+          "line": 146,
+          "line_sha256": "540c2b253680f90fa9be7f436a9cabf1e3befcc5d2fae61929df23e94f685a32"
+        },
+        {
+          "case_id": "W6",
+          "line": 147,
+          "line_sha256": "e610a84acb7ab9f5fcb9a92f406ce6009fc301dcde80611490b6fc22e8d08ba4"
+        }
+      ],
+      "sha256": "7dcd6005e33d68b503500a506992891140d294acac2d00301d1d890298a3890e",
+      "source": {
+        "bytes": 56754,
+        "path": "results/raw/phase2/functional/REG_002/S4/rtl_results.jsonl",
+        "sha256": "7a2fc8ffae5d5c22eb110abdfc1c01d89856749f860a3babf0944cc2a5e05b5d"
+      }
+    },
+    {
+      "bytes": 4267,
+      "operation": "byte-identical copy",
+      "path": "verify.py",
+      "sha256": "e92cea0ee2630befcbc07efd14256db7d73eac8bc421462711cce1e2de7a275f",
+      "source": {
+        "bytes": 4267,
+        "path": "scripts/verify_dac27_round5_bundle.py",
+        "sha256": "e92cea0ee2630befcbc07efd14256db7d73eac8bc421462711cce1e2de7a275f"
+      }
+    }
+  ],
+  "full_reproduction": [
+    "python -X utf8 scripts/analyze_dac27_round4_exploratory.py --check",
+    "python -X utf8 scripts/collect_phase2_functional.py"
+  ],
+  "purpose": "Offline presentation / historical evidence replay",
+  "qualification_scope": "Two independently qualified members; original three-member family FAIL",
+  "schema_version": 1
+}

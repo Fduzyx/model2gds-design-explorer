@@ -1,0 +1,29 @@
+Model2GDS Design Explorer — project and upstream attribution
+
+This portable package contains rendered images of selected top-level geometry
+from the independently qualified historical 2x2 and 4x4 FINAL_002 GDS designs.
+It does not distribute complete GDS files, SPEF files, or a PDK installation.
+The rendering omits referenced standard-cell internals, cuts and labels; the
+precise display policy and original GDS hashes are in assets/layout_manifest.json.
+The routed designs were implemented using SKY130 and the libraries below.
+
+sky130_fd_sc_hd — SkyWater high-density standard cells
+Copyright 2020 The SkyWater PDK Authors
+Revision: 2a8fc299668dd3f225a67676d5d9c140bd6483a3
+Apache License 2.0: third_party/sky130_fd_sc_hd/LICENSE
+
+open_pdks — PDK processing and supporting cell material
+Sky130 setup by Tim Edwards, efabless corporation (upstream Makefile attribution).
+Revision: 0fe599b2afb6708d281543108caf8310912f54af
+Apache License 2.0: third_party/open_pdks/LICENSE
+
+These two license files are byte-identical copies from the preserved Model2GDS
+ISSCC package. third_party/upstream_license_sources.json preserves the original
+installed-revision query, upstream URLs and license hashes from
+results/raw/phase2/sprint/SUBMISSION_LICENSE_001/query.stdout.log.
+The qualified run records in evidence/physical.json bind the same open_pdks
+revision and standard-cell library. The original full repository retains the
+complete source query and physical artifacts.
+
+Project source is licensed under the root LICENSE (Apache-2.0). Upstream software
+and cell material retain their own terms; this notice does not alter them.

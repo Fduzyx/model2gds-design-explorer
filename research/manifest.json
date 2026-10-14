@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "bytes": 14418,
+      "path": "cfg_2_excerpts.txt",
+      "sha256": "975c52f86db2de95f8b6ff3ca441e71c25731fb4687b183c0d67e52a9567d4cc",
+      "source": "results/raw/phase2/dac27/round6/MAPPING_001/cfg_2_excerpts.txt"
+    },
+    {
+      "bytes": 71972,
+      "path": "cfg_2_gds_references.json",
+      "sha256": "d46fc3b6e345035100c36f818b017b862e5bd44e4063355709c13b250bff8124",
+      "source": "results/raw/phase2/dac27/round6/MAPPING_001/cfg_2_gds_references.json"
+    },
+    {
+      "bytes": 17933,
+      "path": "cfg_2_mapping.svg",
+      "sha256": "b85de9d66cd983bc9098ab1efd0774656a2da7b6b87429fcc3cc1edfe1bb8f03",
+      "source": "results/figures/dac27_round6_mapping/cfg_2_mapping.svg"
+    },
+    {
+      "bytes": 16974,
+      "path": "cfg_4_excerpts.txt",
+      "sha256": "21245c11391e08db80720a3841154db3e872cf657e393c3d1583f0e5eba39dd9",
+      "source": "results/raw/phase2/dac27/round6/MAPPING_001/cfg_4_excerpts.txt"
+    },
+    {
+      "bytes": 286622,
+      "path": "cfg_4_gds_references.json",
+      "sha256": "cac6539fb48aa3c74b446939e96591b737005df6240e32b1f74d4154e1539144",
+      "source": "results/raw/phase2/dac27/round6/MAPPING_001/cfg_4_gds_references.json"
+    },
+    {
+      "bytes": 67040,
+      "path": "cfg_4_mapping.svg",
+      "sha256": "590c8eee3e892ae4f430860cbc20d5824bc0c04a7ce52e775e2ce809b353e46b",
+      "source": "results/figures/dac27_round6_mapping/cfg_4_mapping.svg"
+    },
+    {
+      "bytes": 23290,
+      "path": "decisions.json",
+      "sha256": "aedb32b8592e88375b75110088ecd5acb8d1f331276b0cee80fce22f797175d1",
+      "source": "results/processed/dac27_round6_decisions.json"
+    },
+    {
+      "bytes": 291835,
+      "path": "decisions.png",
+      "sha256": "8e3a7305f0ff69a4236dc6da5b2568b50a1f11970e3a8abf16d1d9884a8d61d2",
+      "source": "results/figures/dac27_round6/decisions.png"
+    },
+    {
+      "bytes": 65821,
+      "path": "decisions.svg",
+      "sha256": "275413d9ee14409d82c13d875416d32802561398cb5a76bd72d2019863bac944",
+      "source": "results/figures/dac27_round6/decisions.svg"
+    },
+    {
+      "bytes": 283539,
+      "path": "mapping.json",
+      "sha256": "a82560a4b9876872953f32f2bcea1cce8eee734ff24721b347c5c78b3ea20128",
+      "source": "results/processed/dac27_round6_mapping.json"
+    }
+  ],
+  "original_family_status": "FAIL",
+  "scope": "Round-6 derived decisions and read-only physical mapping; no new EDA.",
+  "source_family": "FINAL_002"
+}

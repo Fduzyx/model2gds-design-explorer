@@ -1,0 +1,873 @@
+{
+  "analysis_mode": "TWO_CONFIGURATION_EXPLORATORY_MULTIOBJECTIVE",
+  "area_budget_intervals": {
+    "cell": [
+      {
+        "feasible_array_sizes": [],
+        "lower_inclusive": true,
+        "lower_um2": 0,
+        "upper_inclusive": false,
+        "upper_um2": 39103.8
+      },
+      {
+        "feasible_array_sizes": [
+          2
+        ],
+        "lower_inclusive": true,
+        "lower_um2": 39103.8,
+        "upper_inclusive": false,
+        "upper_um2": 162386
+      },
+      {
+        "feasible_array_sizes": [
+          2,
+          4
+        ],
+        "lower_inclusive": true,
+        "lower_um2": 162386,
+        "upper_inclusive": false,
+        "upper_um2": null
+      }
+    ],
+    "core": [
+      {
+        "feasible_array_sizes": [],
+        "lower_inclusive": true,
+        "lower_um2": 0,
+        "upper_inclusive": false,
+        "upper_um2": 130964
+      },
+      {
+        "feasible_array_sizes": [
+          2
+        ],
+        "lower_inclusive": true,
+        "lower_um2": 130964,
+        "upper_inclusive": false,
+        "upper_um2": 531820
+      },
+      {
+        "feasible_array_sizes": [
+          2,
+          4
+        ],
+        "lower_inclusive": true,
+        "lower_um2": 531820,
+        "upper_inclusive": false,
+        "upper_um2": null
+      }
+    ]
+  },
+  "area_definitions": {
+    "cell": "Tool-reported placed instance area; excludes core whitespace and is not an interchangeable footprint budget.",
+    "core": "Tool-reported floorplan core area; a physical footprint proxy, not full-chip area."
+  },
+  "configurations": [
+    {
+      "array_size": 2,
+      "cell_area_um2": 39103.8,
+      "core_area_um2": 130964,
+      "recipe_sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41",
+      "run_path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002",
+      "sta_period_ns": 15.418417999999999
+    },
+    {
+      "array_size": 4,
+      "cell_area_um2": 162386,
+      "core_area_um2": 531820,
+      "recipe_sha256": "a73c305953d07f18d2ba24f735fa02862dcbfb4db99b3aa0377534460fc66c41",
+      "run_path": "results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002",
+      "sta_period_ns": 14.442339
+    }
+  ],
+  "equations": {
+    "adp_ns_um2": "latency_ns * selected_area_um2",
+    "latency_ns": "matched_RTL_cycles * fixed_layout_R2R_STA_period_ns",
+    "score": "latency_ns * selected_area_um2 ** alpha",
+    "threshold": "alpha* = ln(T2/T4) / ln(A4/A2)"
+  },
+  "excluded_array_sizes": [
+    8
+  ],
+  "limits": [
+    "Post-result subset; only two fixed layouts under one recipe and six fixed workloads.",
+    "STA estimates are internal fixed-layout register-to-register estimates, not measured silicon or end-to-end latency.",
+    "Objective changes and budget exclusions are not cycle-versus-STA ranking reversals.",
+    "No power, energy, FPGA or new physical qualification is claimed.",
+    "Numerical tie intervals are not confidence intervals or physical uncertainty."
+  ],
+  "new_eda_measurements": false,
+  "original_family_status": "FAIL",
+  "original_three_configuration_study_complete": false,
+  "pareto_rule": "Exact reported estimates: no other candidate has both area and latency <= with at least one strict inequality; no uncertainty claim.",
+  "qualification_check": {
+    "files": 20,
+    "historical_rtl_records": 12,
+    "original_family_status": "FAIL",
+    "qualified_physical_members": [
+      2,
+      4
+    ],
+    "scope": "Included-record integrity and derivation checks; no new RTL or EDA execution",
+    "status": "PASS"
+  },
+  "schema_version": 1,
+  "source_family": "FINAL_002",
+  "sources": [
+    {
+      "bytes": 11179,
+      "path": "demos/model2gds_explorer/evidence/manifest.json",
+      "sha256": "be1f0720316215dc2eea7642c870214d9f60aacafd5b00126c3ab3e3b2556c7e"
+    },
+    {
+      "bytes": 4267,
+      "path": "demos/model2gds_explorer/evidence/verify.py",
+      "sha256": "e92cea0ee2630befcbc07efd14256db7d73eac8bc421462711cce1e2de7a275f"
+    },
+    {
+      "bytes": 40042,
+      "path": "demos/model2gds_explorer/evidence/exploratory.json",
+      "sha256": "453aa8144502d635e5b7eb0a00c0a135394d34beb04165187091e9ed91e42fcc"
+    },
+    {
+      "bytes": 404970,
+      "path": "demos/model2gds_explorer/evidence/physical.json",
+      "sha256": "faf2faef5ad4e738668e734337fac744a8697c7b088955474e1ea2b9c67d5bb1"
+    },
+    {
+      "bytes": 464097,
+      "path": "demos/model2gds_explorer/evidence/functional_cases.json",
+      "sha256": "a375679b88b8c409755a2ea689cddc8620b0b8c072a61922f3673dbaa5cca561"
+    },
+    {
+      "bytes": 11729,
+      "path": "scripts/analyze_dac27_round6.py",
+      "sha256": "cc5144887c6afb55b0ee36534a24ecfd5d15b8835394365dc7c414d8907eef2b"
+    },
+    {
+      "bytes": 10444,
+      "path": "demos/model2gds_explorer/decisions.py",
+      "sha256": "208f9b697b255e4d9ca3bc0b91121a039223e389e1610068aabe5866f1330bdd"
+    },
+    {
+      "bytes": 40042,
+      "path": "results/processed/dac27_round4_exploratory.json",
+      "sha256": "453aa8144502d635e5b7eb0a00c0a135394d34beb04165187091e9ed91e42fcc"
+    }
+  ],
+  "status": "PASS",
+  "summary": {
+    "adp_winners": {
+      "cell": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "core": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "alpha_threshold_ranges": {
+      "cell": [
+        0.702162102444843,
+        0.9436159765089083
+      ],
+      "core": [
+        0.7133725637521011,
+        0.9586814013683975
+      ]
+    },
+    "cycle_to_sta_reversal_count": 0,
+    "cycle_winners": [
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "sta_latency_speedup_range": [
+      2.7174879485807786,
+      3.832354799280586
+    ],
+    "sta_latency_winners": [
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ]
+  },
+  "tie_policy": {
+    "absolute_tolerance": 0.0,
+    "cycles_unit": "rising_clock_edges_including_tile_clear",
+    "implementation_latency_unit": "ns",
+    "logarithm": "natural",
+    "margin_change_absolute_tolerance": 1e-09,
+    "margin_change_tolerance_unit": "dimensionless natural-log ratio",
+    "pairwise": "If either layer ties, tied_or_indeterminate; otherwise equal order is preserved and opposite order reversed.",
+    "positive_quantity_comparison": "math.isclose(a,b,rel_tol=1e-9,abs_tol=0.0)",
+    "relative_tolerance": 1e-09,
+    "top1_agreement": "Identical unique winners count toward agreement/6; any multiwinner set is explicitly indeterminate.",
+    "winner_set": "Every configuration numerically tied with the minimum; sorted by array size."
+  },
+  "workloads": [
+    {
+      "K": 4,
+      "M": 4,
+      "N": 4,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 16881724.5460752,
+            "4": 25797570.269394003
+          },
+          "adp_ratio_4_over_2": 1.5281359554816119,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.702162102444843,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 2.7174879485807786,
+            "tie_alpha_lower": 0.7021621017424757,
+            "tie_alpha_upper": 0.7021621031472103,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 56539215.458656,
+            "4": 84487971.99678001
+          },
+          "adp_ratio_4_over_2": 1.494325156643912,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.7133725637521011,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 2.7174879485807786,
+            "tie_alpha_lower": 0.7133725630385201,
+            "tie_alpha_upper": 0.7133725644656821,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 28,
+          "latency_ns": 431.71570399999996,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 11,
+          "latency_ns": 158.86572900000002,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 2.5454545454545454,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 2.7174879485807786,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W1"
+    },
+    {
+      "K": 8,
+      "M": 8,
+      "N": 8,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 106113697.1467584,
+            "4": 140714019.65124
+          },
+          "adp_ratio_4_over_2": 1.3260683911204065,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.8017789882331094,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.1315813502692786,
+            "tie_alpha_lower": 0.8017789875307422,
+            "tie_alpha_upper": 0.8017789889354767,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 355389354.311552,
+            "4": 460843483.6188
+          },
+          "adp_ratio_4_over_2": 1.2967284417157912,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.814579896019593,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.1315813502692786,
+            "tie_alpha_lower": 0.814579895306012,
+            "tie_alpha_upper": 0.814579896733174,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 176,
+          "latency_ns": 2713.641568,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 60,
+          "latency_ns": 866.54034,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 2.933333333333333,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 3.1315813502692786,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W2"
+    },
+    {
+      "K": 16,
+      "M": 16,
+      "N": 16,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 733149180.2866944,
+            "4": 863045987.194272
+          },
+          "adp_ratio_4_over_2": 1.177176501591098,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.8854307122748709,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.5276706910147997,
+            "tie_alpha_lower": 0.8854307115725036,
+            "tie_alpha_upper": 0.8854307129772382,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 2455417357.0616317,
+            "4": 2826506699.5286403
+          },
+          "adp_ratio_4_over_2": 1.151130862295071,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.8995671726529717,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.5276706910147997,
+            "tie_alpha_lower": 0.8995671719393907,
+            "tie_alpha_upper": 0.8995671733665527,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 1216,
+          "latency_ns": 18748.796287999998,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 368,
+          "latency_ns": 5314.780752000001,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 3.3043478260869565,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 3.5276706910147997,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W3"
+    },
+    {
+      "K": 32,
+      "M": 32,
+      "N": 32,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 5402151854.744064,
+            "4": 5853703217.491584
+          },
+          "adp_ratio_4_over_2": 1.0835873138869607,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.9436159765089083,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.832354799280586,
+            "tie_alpha_lower": 0.943615975806541,
+            "tie_alpha_upper": 0.9436159772112755,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 18092548946.76992,
+            "4": 19171088918.54208
+          },
+          "adp_ratio_4_over_2": 1.0596123838020464,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.9586814013683975,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.832354799280586,
+            "tie_alpha_lower": 0.9586814006548166,
+            "tie_alpha_upper": 0.9586814020819785,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 8960,
+          "latency_ns": 138149.02528,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 2496,
+          "latency_ns": 36048.078144,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 3.58974358974359,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 3.832354799280586,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W4"
+    },
+    {
+      "K": 32,
+      "M": 32,
+      "N": 8,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 1350537963.686016,
+            "4": 1463425804.372896
+          },
+          "adp_ratio_4_over_2": 1.0835873138869607,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.9436159765089083,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.832354799280586,
+            "tie_alpha_lower": 0.943615975806541,
+            "tie_alpha_upper": 0.9436159772112755,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 4523137236.69248,
+            "4": 4792772229.63552
+          },
+          "adp_ratio_4_over_2": 1.0596123838020464,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.9586814013683975,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.832354799280586,
+            "tie_alpha_lower": 0.9586814006548166,
+            "tie_alpha_upper": 0.9586814020819785,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 2240,
+          "latency_ns": 34537.25632,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 624,
+          "latency_ns": 9012.019536,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 3.58974358974359,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 3.832354799280586,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W5"
+    },
+    {
+      "K": 8,
+      "M": 32,
+      "N": 32,
+      "areas": {
+        "cell": {
+          "adp_ns_um2": {
+            "2": 1697819154.3481345,
+            "4": 2251424314.41984
+          },
+          "adp_ratio_4_over_2": 1.3260683911204065,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.8017789882331094,
+            "area_ratio_4_over_2": 4.152691042814253,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.1315813502692786,
+            "tie_alpha_lower": 0.8017789875307422,
+            "tie_alpha_upper": 0.8017789889354767,
+            "tie_band_is_physical_uncertainty": false
+          }
+        },
+        "core": {
+          "adp_ns_um2": {
+            "2": 5686229668.984832,
+            "4": 7373495737.9008
+          },
+          "adp_ratio_4_over_2": 1.2967284417157912,
+          "adp_winner_set": [
+            2
+          ],
+          "pareto_array_sizes": [
+            2,
+            4
+          ],
+          "threshold": {
+            "above_winner_set": [
+              2
+            ],
+            "alpha_star": 0.814579896019593,
+            "area_ratio_4_over_2": 4.060810604440915,
+            "at_threshold_winner_set": [
+              2,
+              4
+            ],
+            "below_winner_set": [
+              4
+            ],
+            "equation": "alpha* = ln(T2/T4) / ln(A4/A2)",
+            "latency_speedup_4_over_2": 3.1315813502692786,
+            "tie_alpha_lower": 0.814579895306012,
+            "tie_alpha_upper": 0.814579896733174,
+            "tie_band_is_physical_uncertainty": false
+          }
+        }
+      },
+      "configurations": [
+        {
+          "array_size": 2,
+          "cell_area_um2": 39103.8,
+          "core_area_um2": 130964,
+          "cycles": 2816,
+          "latency_ns": 43418.265088,
+          "sta_period_ns": 15.418417999999999
+        },
+        {
+          "array_size": 4,
+          "cell_area_um2": 162386,
+          "core_area_um2": 531820,
+          "cycles": 960,
+          "latency_ns": 13864.64544,
+          "sta_period_ns": 14.442339
+        }
+      ],
+      "cycle_speedup_4_over_2": 2.933333333333333,
+      "cycle_winner_set": [
+        4
+      ],
+      "sta_latency_speedup_4_over_2": 3.1315813502692786,
+      "sta_latency_winner_set": [
+        4
+      ],
+      "workload_id": "W6"
+    }
+  ]
+}

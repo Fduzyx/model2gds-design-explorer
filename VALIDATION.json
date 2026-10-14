@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "Independent copied candidate only",
+  "python_version": "3.13.15",
+  "validation_attempts": [
+    {
+      "attempt": 1,
+      "status": "FAIL",
+      "reason": "New staging harness incorrectly required an optional SVG XML prolog; source SVG unchanged"
+    },
+    {
+      "attempt": 2,
+      "status": "PASS",
+      "correction": "Parse XML and check SVG root instead"
+    }
+  ],
+  "python_AST_files": [
+    "app.py",
+    "checks/verify_candidate.py",
+    "decisions.py",
+    "evidence/verify.py",
+    "launch.py",
+    "model/__init__.py",
+    "model/arithmetic.py",
+    "model/golden.py",
+    "model/systolic_generic.py",
+    "physical_view.py"
+  ],
+  "notebook_code_cells_syntax_checked": 2,
+  "preserved_manifest_entries_checked": {
+    "evidence": 20,
+    "research": 10
+  },
+  "existing_evidence_verifier": {
+    "status": "PASS",
+    "files": 20,
+    "historical_rtl_records": 12,
+    "qualified_physical_members": [
+      2,
+      4
+    ],
+    "original_family_status": "FAIL",
+    "scope": "Included-record integrity and derivation checks; no new RTL or EDA execution"
+  },
+  "current_model_replays": [
+    {
+      "workload": "W1",
+      "array_size": 2,
+      "current_cycles": 28,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W1",
+      "array_size": 4,
+      "current_cycles": 11,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W2",
+      "array_size": 2,
+      "current_cycles": 176,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W2",
+      "array_size": 4,
+      "current_cycles": 60,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W3",
+      "array_size": 2,
+      "current_cycles": 1216,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W3",
+      "array_size": 4,
+      "current_cycles": 368,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W4",
+      "array_size": 2,
+      "current_cycles": 8960,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W4",
+      "array_size": 4,
+      "current_cycles": 2496,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W5",
+      "array_size": 2,
+      "current_cycles": 2240,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W5",
+      "array_size": 4,
+      "current_cycles": 624,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W6",
+      "array_size": 2,
+      "current_cycles": 2816,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    },
+    {
+      "workload": "W6",
+      "array_size": 4,
+      "current_cycles": 960,
+      "comparison": "Current Python vs preserved RTL observation",
+      "status": "PASS"
+    }
+  ],
+  "selection_calculations_checked": 36,
+  "selection_boundary_checks": "Six workloads, Core/Cell: empty budget, inclusive smaller-only boundary, exact alpha tie; W4/W5 basis switch",
+  "preserved_mapping_checks": [
+    {
+      "array_size": 2,
+      "preserved_accumulator_registers": 128,
+      "new_geometry_extraction": false,
+      "status": "PASS"
+    },
+    {
+      "array_size": 4,
+      "preserved_accumulator_registers": 512,
+      "new_geometry_extraction": false,
+      "status": "PASS"
+    }
+  ],
+  "historical_441_case_regression": "NOT_RUN (historical evidence only)",
+  "fresh_RTL_EDA_signoff_GDS_extraction": "NOT_RUN",
+  "notebook_runtime_browser_UI": "NOT_RUN",
+  "dependency_installation": "NOT_RUN",
+  "network_and_remote_publication": "NOT_RUN",
+  "standalone_CLI_smoke_checks": [
+    {
+      "command": "python -B app.py --workload W4 --objective weighted --alpha 0.95 --area-metric core",
+      "invocation_working_directory": "staging parent, outside candidate",
+      "status": "PASS",
+      "winner_set": [
+        4
+      ],
+      "fresh_rtl_or_physical": false
+    },
+    {
+      "command": "python -B app.py --workload W4 --objective weighted --alpha 0.95 --area-metric cell",
+      "invocation_working_directory": "staging parent, outside candidate",
+      "status": "PASS",
+      "winner_set": [
+        2
+      ],
+      "fresh_rtl_or_physical": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Owner-only provenance, intentionally excluded from future public upload.
+SOURCE_MANIFEST.json
+# Local runtime artifacts.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+checks/_temp/

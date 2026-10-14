@@ -1,0 +1,3753 @@
+{
+  "references": {
+    "_7029_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7029_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        212.52,
+        125.12
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        212.52,
+        122.4
+      ],
+      "x_reflection": true
+    },
+    "_7030_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7030_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        201.48,
+        114.24
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        201.48,
+        114.24
+      ],
+      "x_reflection": false
+    },
+    "_7031_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7031_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        190.9,
+        114.24
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        190.9,
+        114.24
+      ],
+      "x_reflection": false
+    },
+    "_7032_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7032_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        186.76,
+        157.76
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        186.76,
+        155.04
+      ],
+      "x_reflection": true
+    },
+    "_7033_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7033_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        186.76,
+        168.64
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        186.76,
+        165.92
+      ],
+      "x_reflection": true
+    },
+    "_7034_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7034_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        212.52,
+        190.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        212.52,
+        187.68
+      ],
+      "x_reflection": true
+    },
+    "_7035_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7035_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        239.2,
+        190.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        239.2,
+        190.4
+      ],
+      "x_reflection": false
+    },
+    "_7036_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7036_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        267.72,
+        179.52
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        267.72,
+        179.52
+      ],
+      "x_reflection": false
+    },
+    "_7037_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7037_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        288.42,
+        157.76
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        281.06,
+        157.76
+      ],
+      "x_reflection": true
+    },
+    "_7038_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7038_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        287.96,
+        168.64
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        287.96,
+        168.64
+      ],
+      "x_reflection": false
+    },
+    "_7039_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7039_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        310.5,
+        146.88
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        310.5,
+        146.88
+      ],
+      "x_reflection": false
+    },
+    "_7040_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7040_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        304.98,
+        141.44
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        304.98,
+        141.44
+      ],
+      "x_reflection": false
+    },
+    "_7041_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7041_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        320.62,
+        141.44
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        320.62,
+        138.72
+      ],
+      "x_reflection": true
+    },
+    "_7042_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7042_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        328.44,
+        130.56
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        328.44,
+        127.84
+      ],
+      "x_reflection": true
+    },
+    "_7043_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7043_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        337.18,
+        108.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        337.18,
+        108.8
+      ],
+      "x_reflection": false
+    },
+    "_7044_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7044_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        341.32,
+        92.48
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        341.32,
+        89.76
+      ],
+      "x_reflection": true
+    },
+    "_7045_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7045_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        340.4,
+        70.72
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        340.4,
+        70.72
+      ],
+      "x_reflection": false
+    },
+    "_7046_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7046_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        339.94,
+        48.96
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        339.94,
+        48.96
+      ],
+      "x_reflection": false
+    },
+    "_7047_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7047_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        334.42,
+        27.2
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        334.42,
+        27.2
+      ],
+      "x_reflection": false
+    },
+    "_7048_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7048_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        341.32,
+        59.84
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        341.32,
+        57.12
+      ],
+      "x_reflection": true
+    },
+    "_7049_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7049_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        289.8,
+        70.72
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        289.8,
+        68.0
+      ],
+      "x_reflection": true
+    },
+    "_7050_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7050_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        276.92,
+        70.72
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        276.92,
+        70.72
+      ],
+      "x_reflection": false
+    },
+    "_7051_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7051_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        284.28,
+        27.2
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        276.92,
+        27.2
+      ],
+      "x_reflection": true
+    },
+    "_7052_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7052_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        278.76,
+        21.76
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        271.4,
+        19.04
+      ],
+      "x_reflection": false
+    },
+    "_7053_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7053_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        259.44,
+        27.2
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        252.08,
+        27.2
+      ],
+      "x_reflection": true
+    },
+    "_7054_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7054_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        266.8,
+        70.72
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        259.44,
+        70.72
+      ],
+      "x_reflection": true
+    },
+    "_7055_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7055_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        227.7,
+        54.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        227.7,
+        54.4
+      ],
+      "x_reflection": false
+    },
+    "_7056_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7056_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        246.1,
+        65.28
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        238.74,
+        65.28
+      ],
+      "x_reflection": true
+    },
+    "_7057_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7057_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        258.52,
+        70.72
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        251.16,
+        70.72
+      ],
+      "x_reflection": true
+    },
+    "_7058_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7058_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        208.84,
+        70.72
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        201.48,
+        68.0
+      ],
+      "x_reflection": false
+    },
+    "_7059_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7059_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        220.8,
+        114.24
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        213.44,
+        111.52
+      ],
+      "x_reflection": false
+    },
+    "_7060_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7060_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        207.46,
+        92.48
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        207.46,
+        92.48
+      ],
+      "x_reflection": false
+    },
+    "_7072_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7072_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        200.56,
+        201.28
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        200.56,
+        201.28
+      ],
+      "x_reflection": false
+    },
+    "_7073_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7073_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        186.3,
+        195.84
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        178.94,
+        195.84
+      ],
+      "x_reflection": true
+    },
+    "_7074_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7074_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        199.64,
+        212.16
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        199.64,
+        212.16
+      ],
+      "x_reflection": false
+    },
+    "_7075_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7075_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        198.26,
+        223.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        198.26,
+        220.32
+      ],
+      "x_reflection": true
+    },
+    "_7076_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7076_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        198.26,
+        233.92
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        198.26,
+        231.2
+      ],
+      "x_reflection": true
+    },
+    "_7077_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7077_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        202.4,
+        244.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        202.4,
+        242.08
+      ],
+      "x_reflection": true
+    },
+    "_7078_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7078_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        188.14,
+        255.68
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        188.14,
+        252.96
+      ],
+      "x_reflection": true
+    },
+    "_7079_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7079_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        186.76,
+        266.56
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        186.76,
+        263.84
+      ],
+      "x_reflection": true
+    },
+    "_7080_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7080_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        189.98,
+        326.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        189.98,
+        326.4
+      ],
+      "x_reflection": false
+    },
+    "_7081_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7081_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        186.3,
+        315.52
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        186.3,
+        315.52
+      ],
+      "x_reflection": false
+    },
+    "_7082_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7082_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        211.14,
+        331.84
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        203.78,
+        329.12
+      ],
+      "x_reflection": false
+    },
+    "_7083_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7083_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        224.94,
+        331.84
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        224.94,
+        329.12
+      ],
+      "x_reflection": true
+    },
+    "_7084_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7084_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        238.28,
+        331.84
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        238.28,
+        329.12
+      ],
+      "x_reflection": true
+    },
+    "_7085_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7085_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        253.46,
+        326.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        253.46,
+        326.4
+      ],
+      "x_reflection": false
+    },
+    "_7086_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7086_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        268.18,
+        326.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        268.18,
+        326.4
+      ],
+      "x_reflection": false
+    },
+    "_7087_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7087_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        276.46,
+        320.96
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        276.46,
+        318.24
+      ],
+      "x_reflection": true
+    },
+    "_7088_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7088_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        310.5,
+        315.52
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        310.5,
+        315.52
+      ],
+      "x_reflection": false
+    },
+    "_7089_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7089_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        298.08,
+        320.96
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        298.08,
+        318.24
+      ],
+      "x_reflection": true
+    },
+    "_7090_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7090_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        283.82,
+        266.56
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        283.82,
+        266.56
+      ],
+      "x_reflection": false
+    },
+    "_7091_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7091_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        302.68,
+        272.0
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        302.68,
+        272.0
+      ],
+      "x_reflection": false
+    },
+    "_7092_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7092_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        316.48,
+        244.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        316.48,
+        242.08
+      ],
+      "x_reflection": true
+    },
+    "_7093_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7093_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        317.86,
+        223.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        317.86,
+        220.32
+      ],
+      "x_reflection": true
+    },
+    "_7094_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7094_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        306.36,
+        244.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        306.36,
+        244.8
+      ],
+      "x_reflection": false
+    },
+    "_7095_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7095_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        289.8,
+        255.68
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        289.8,
+        252.96
+      ],
+      "x_reflection": true
+    },
+    "_7096_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7096_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        276.46,
+        250.24
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        276.46,
+        247.52
+      ],
+      "x_reflection": true
+    },
+    "_7097_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7097_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        287.5,
+        261.12
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        280.14,
+        258.4
+      ],
+      "x_reflection": false
+    },
+    "_7098_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7098_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        284.28,
+        261.12
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        276.92,
+        261.12
+      ],
+      "x_reflection": true
+    },
+    "_7099_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7099_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        271.4,
+        201.28
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        264.04,
+        201.28
+      ],
+      "x_reflection": true
+    },
+    "_7100_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7100_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        238.74,
+        206.72
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        238.74,
+        206.72
+      ],
+      "x_reflection": false
+    },
+    "_7101_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7101_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        213.44,
+        244.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        213.44,
+        242.08
+      ],
+      "x_reflection": true
+    },
+    "_7102_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7102_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        219.88,
+        212.16
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        212.52,
+        209.44
+      ],
+      "x_reflection": false
+    },
+    "_7103_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7103_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        228.16,
+        212.16
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        220.8,
+        209.44
+      ],
+      "x_reflection": false
+    },
+    "_7115_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7115_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        143.06,
+        92.48
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        135.7,
+        89.76
+      ],
+      "x_reflection": false
+    },
+    "_7116_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7116_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        141.22,
+        103.36
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        141.22,
+        100.64
+      ],
+      "x_reflection": true
+    },
+    "_7117_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7117_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        163.3,
+        97.92
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        163.3,
+        97.92
+      ],
+      "x_reflection": false
+    },
+    "_7118_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7118_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        189.98,
+        92.48
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        182.62,
+        92.48
+      ],
+      "x_reflection": true
+    },
+    "_7119_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7119_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        185.84,
+        59.84
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        185.84,
+        59.84
+      ],
+      "x_reflection": false
+    },
+    "_7120_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7120_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        161.0,
+        43.52
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        153.64,
+        43.52
+      ],
+      "x_reflection": true
+    },
+    "_7121_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7121_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        156.86,
+        54.4
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        149.5,
+        54.4
+      ],
+      "x_reflection": true
+    },
+    "_7122_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7122_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        148.12,
+        65.28
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        148.12,
+        65.28
+      ],
+      "x_reflection": false
+    },
+    "_7123_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7123_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        142.6,
+        76.16
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        142.6,
+        73.44
+      ],
+      "x_reflection": true
+    },
+    "_7124_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7124_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        132.48,
+        76.16
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        132.48,
+        76.16
+      ],
+      "x_reflection": false
+    },
+    "_7125_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7125_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        125.12,
+        87.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        125.12,
+        84.32
+      ],
+      "x_reflection": true
+    },
+    "_7126_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7126_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        113.62,
+        87.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        113.62,
+        84.32
+      ],
+      "x_reflection": true
+    },
+    "_7127_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7127_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        140.3,
+        97.92
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        132.94,
+        97.92
+      ],
+      "x_reflection": true
+    },
+    "_7128_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7128_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        138.46,
+        108.8
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        131.1,
+        108.8
+      ],
+      "x_reflection": true
+    },
+    "_7129_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7129_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        98.44,
+        125.12
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        98.44,
+        122.4
+      ],
+      "x_reflection": true
+    },
+    "_7130_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7130_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        135.24,
+        119.68
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        135.24,
+        116.96
+      ],
+      "x_reflection": true
+    },
+    "_7131_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7131_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        130.18,
+        125.12
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        130.18,
+        125.12
+      ],
+      "x_reflection": false
+    },
+    "_7132_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7132_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        129.72,
+        136.0
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        122.36,
+        133.28
+      ],
+      "x_reflection": false
+    },
+    "_7133_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7133_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        90.62,
+        146.88
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        90.62,
+        144.16
+      ],
+      "x_reflection": true
+    },
+    "_7134_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7134_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        80.04,
+        146.88
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        72.68,
+        144.16
+      ],
+      "x_reflection": false
+    },
+    "_7135_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7135_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        87.4,
+        168.64
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        87.4,
+        168.64
+      ],
+      "x_reflection": false
+    },
+    "_7136_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7136_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        108.56,
+        190.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        108.56,
+        190.4
+      ],
+      "x_reflection": false
+    },
+    "_7137_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7137_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        131.1,
+        190.4
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        123.74,
+        190.4
+      ],
+      "x_reflection": true
+    },
+    "_7138_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7138_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        135.24,
+        190.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        135.24,
+        187.68
+      ],
+      "x_reflection": true
+    },
+    "_7139_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7139_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        153.64,
+        184.96
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        153.64,
+        184.96
+      ],
+      "x_reflection": false
+    },
+    "_7140_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7140_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        141.68,
+        184.96
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        141.68,
+        182.24
+      ],
+      "x_reflection": true
+    },
+    "_7141_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7141_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        156.4,
+        168.64
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        156.4,
+        168.64
+      ],
+      "x_reflection": false
+    },
+    "_7142_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7142_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        153.18,
+        157.76
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        153.18,
+        157.76
+      ],
+      "x_reflection": false
+    },
+    "_7143_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7143_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        148.12,
+        152.32
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        148.12,
+        152.32
+      ],
+      "x_reflection": false
+    },
+    "_7144_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7144_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        159.16,
+        146.88
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        151.8,
+        146.88
+      ],
+      "x_reflection": true
+    },
+    "_7145_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7145_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        178.02,
+        114.24
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        178.02,
+        111.52
+      ],
+      "x_reflection": true
+    },
+    "_7146_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7146_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        180.32,
+        119.68
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        180.32,
+        119.68
+      ],
+      "x_reflection": false
+    },
+    "_7149_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7149_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        43.24,
+        87.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        43.24,
+        84.32
+      ],
+      "x_reflection": true
+    },
+    "_7167_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7167_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        48.76,
+        108.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        48.76,
+        106.08
+      ],
+      "x_reflection": true
+    },
+    "_7168_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7168_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        46.92,
+        97.92
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        39.56,
+        95.2
+      ],
+      "x_reflection": false
+    },
+    "_7169_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7169_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        55.2,
+        119.68
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        47.84,
+        116.96
+      ],
+      "x_reflection": false
+    },
+    "_7170_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7170_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        52.9,
+        130.56
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        45.54,
+        127.84
+      ],
+      "x_reflection": false
+    },
+    "_7171_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7171_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        61.18,
+        136.0
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        53.82,
+        136.0
+      ],
+      "x_reflection": true
+    },
+    "_7172_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7172_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        62.1,
+        141.44
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        62.1,
+        141.44
+      ],
+      "x_reflection": false
+    },
+    "_7173_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7173_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        65.32,
+        152.32
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        57.96,
+        149.6
+      ],
+      "x_reflection": false
+    },
+    "_7174_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7174_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        73.14,
+        163.2
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        65.78,
+        160.48
+      ],
+      "x_reflection": false
+    },
+    "_7175_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7175_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        84.18,
+        217.6
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        76.82,
+        217.6
+      ],
+      "x_reflection": true
+    },
+    "_7176_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7176_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        85.56,
+        217.6
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        85.56,
+        214.88
+      ],
+      "x_reflection": true
+    },
+    "_7177_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7177_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        88.32,
+        228.48
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        88.32,
+        225.76
+      ],
+      "x_reflection": true
+    },
+    "_7178_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7178_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        85.1,
+        244.8
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        85.1,
+        244.8
+      ],
+      "x_reflection": false
+    },
+    "_7179_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7179_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        83.72,
+        266.56
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        83.72,
+        263.84
+      ],
+      "x_reflection": true
+    },
+    "_7180_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7180_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        81.42,
+        272.0
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        81.42,
+        272.0
+      ],
+      "x_reflection": false
+    },
+    "_7181_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7181_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        78.2,
+        288.32
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        78.2,
+        288.32
+      ],
+      "x_reflection": false
+    },
+    "_7182_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7182_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        72.68,
+        293.76
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        65.32,
+        291.04
+      ],
+      "x_reflection": false
+    },
+    "_7183_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7183_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        48.76,
+        315.52
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        41.4,
+        312.8
+      ],
+      "x_reflection": false
+    },
+    "_7184_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7184_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        48.76,
+        326.4
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        41.4,
+        323.68
+      ],
+      "x_reflection": false
+    },
+    "_7185_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7185_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        50.6,
+        315.52
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        50.6,
+        315.52
+      ],
+      "x_reflection": false
+    },
+    "_7186_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7186_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        78.2,
+        304.64
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        70.84,
+        304.64
+      ],
+      "x_reflection": true
+    },
+    "_7187_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7187_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        86.02,
+        299.2
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        86.02,
+        299.2
+      ],
+      "x_reflection": false
+    },
+    "_7188_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7188_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        93.84,
+        326.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        93.84,
+        323.68
+      ],
+      "x_reflection": true
+    },
+    "_7189_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7189_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        115.0,
+        326.4
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        115.0,
+        323.68
+      ],
+      "x_reflection": true
+    },
+    "_7190_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7190_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        110.4,
+        315.52
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        110.4,
+        315.52
+      ],
+      "x_reflection": false
+    },
+    "_7191_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7191_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        111.78,
+        310.08
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        111.78,
+        307.36
+      ],
+      "x_reflection": true
+    },
+    "_7192_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7192_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        109.48,
+        288.32
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        109.48,
+        285.6
+      ],
+      "x_reflection": true
+    },
+    "_7193_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7193_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        104.88,
+        282.88
+      ],
+      "rotation_radians": 3.141592653589793,
+      "transformed_box_lower_left_um": [
+        97.52,
+        282.88
+      ],
+      "x_reflection": true
+    },
+    "_7194_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7194_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        86.02,
+        282.88
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        86.02,
+        282.88
+      ],
+      "x_reflection": false
+    },
+    "_7195_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7195_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        94.3,
+        255.68
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        94.3,
+        252.96
+      ],
+      "x_reflection": true
+    },
+    "_7196_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7196_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        99.36,
+        228.48
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        99.36,
+        228.48
+      ],
+      "x_reflection": false
+    },
+    "_7197_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7197_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 2.72,
+      "origin_um": [
+        120.98,
+        223.04
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        120.98,
+        220.32
+      ],
+      "x_reflection": true
+    },
+    "_7198_": {
+      "cell_box_layer_datatype": [
+        236,
+        0
+      ],
+      "cell_name": "sky130_fd_sc_hd__dfxtp_1",
+      "instance_property_61": "_7198_",
+      "local_cell_box_um": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.36,
+          2.72
+        ]
+      ],
+      "origin_minus_def_y_um": 0.0,
+      "origin_um": [
+        126.04,
+        233.92
+      ],
+      "rotation_radians": 0.0,
+      "transformed_box_lower_left_um": [
+        126.04,
+        233.92
+      ],
+      "x_reflection": false
+    }
+  },
+  "source_gds": {
+    "bytes": 11338214,
+    "path": "results/raw/phase2/dac27/round2/physical/cfg_2x2/FINAL_002/runs/FINAL_002/58-magic-streamout/phase2_core_2.gds",
+    "sha256": "2ec490e05c34acb645afe608f0e1c30d2895aebc33bfefd879a2503acc462120"
+  },
+  "tool": "gdstk",
+  "top_cell": "phase2_core_2",
+  "version": "1.0.1"
+}

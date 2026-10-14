@@ -1,0 +1,244 @@
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/r2r.stdout.log:13-148
+Startpoint: _28231_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _28221_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     2    0.111566    0.805316    0.573451    0.573451 ^ clk (in)
+                                                         clk (net)
+                      0.808308    0.000000    0.573451 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.186401    0.299989    0.690970    1.264421 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.301529    0.016443    1.280864 ^ clkbuf_2_3_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.112521    0.309627    0.509915    1.790779 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk (net)
+                      0.310412    0.011779    1.802558 ^ clkbuf_4_12__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    29    0.154441    0.255196    0.474442    2.277000 ^ clkbuf_4_12__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_4_12__leaf_clk (net)
+                      0.256115    0.011717    2.288717 ^ clkbuf_leaf_78_clk/A (sky130_fd_sc_hd__clkbuf_8)
+    12    0.043910    0.139591    0.368468    2.657186 ^ clkbuf_leaf_78_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_78_clk (net)
+                      0.139619    0.001969    2.659154 ^ _28231_/CLK (sky130_fd_sc_hd__dfxtp_2)
+     5    0.044358    0.360313    0.905196    3.564351 ^ _28231_/Q (sky130_fd_sc_hd__dfxtp_2)
+                                                         core.forwarded_a[79] (net)
+                      0.360367    0.004397    3.568748 ^ fanout782/A (sky130_fd_sc_hd__buf_4)
+    17    0.082723    0.368057    0.545298    4.114046 ^ fanout782/X (sky130_fd_sc_hd__buf_4)
+                                                         net782 (net)
+                      0.368285    0.004793    4.118840 ^ fanout780/A (sky130_fd_sc_hd__clkbuf_4)
+    21    0.070671    0.338558    0.577323    4.696163 ^ fanout780/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net780 (net)
+                      0.338634    0.005080    4.701243 ^ _15148_/C (sky130_fd_sc_hd__and3_1)
+     1    0.007755    0.153623    0.449508    5.150751 ^ _15148_/X (sky130_fd_sc_hd__and3_1)
+                                                         _07226_ (net)
+                      0.153623    0.000609    5.151361 ^ fanout432/A (sky130_fd_sc_hd__clkbuf_4)
+    19    0.073433    0.350369    0.489046    5.640407 ^ fanout432/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net432 (net)
+                      0.350830    0.009096    5.649503 ^ fanout431/A (sky130_fd_sc_hd__buf_2)
+    15    0.048964    0.382366    0.541068    6.190570 ^ fanout431/X (sky130_fd_sc_hd__buf_2)
+                                                         net431 (net)
+                      0.382404    0.003967    6.194538 ^ _15197_/A (sky130_fd_sc_hd__nor2_1)
+     1    0.009752    0.148197    0.256691    6.451229 v _15197_/Y (sky130_fd_sc_hd__nor2_1)
+                                                         _07274_ (net)
+                      0.148200    0.000834    6.452063 v fanout259/A (sky130_fd_sc_hd__buf_4)
+    17    0.081840    0.201913    0.413411    6.865474 v fanout259/X (sky130_fd_sc_hd__buf_4)
+                                                         net259 (net)
+                      0.203341    0.013956    6.879430 v fanout257/A (sky130_fd_sc_hd__buf_4)
+    21    0.075823    0.185797    0.436027    7.315457 v fanout257/X (sky130_fd_sc_hd__buf_4)
+                                                         net257 (net)
+                      0.186064    0.006251    7.321709 v _15326_/B (sky130_fd_sc_hd__xnor2_1)
+     2    0.006869    0.317144    0.362512    7.684221 ^ _15326_/Y (sky130_fd_sc_hd__xnor2_1)
+                                                         _07400_ (net)
+                      0.317144    0.000473    7.684693 ^ _15328_/B (sky130_fd_sc_hd__xnor2_1)
+     2    0.007588    0.160419    0.263779    7.948472 v _15328_/Y (sky130_fd_sc_hd__xnor2_1)
+                                                         _07402_ (net)
+                      0.160419    0.000496    7.948968 v _15329_/B (sky130_fd_sc_hd__and2_1)
+     3    0.006673    0.098774    0.392230    8.341198 v _15329_/X (sky130_fd_sc_hd__and2_1)
+                                                         _07403_ (net)
+                      0.098774    0.000320    8.341518 v _15331_/A (sky130_fd_sc_hd__or2_1)
+     1    0.004752    0.115083    0.531558    8.873075 v _15331_/X (sky130_fd_sc_hd__or2_1)
+                                                         _07405_ (net)
+                      0.115083    0.000360    8.873436 v _15349_/A (sky130_fd_sc_hd__xor2_1)
+     2    0.009102    0.363366    0.400051    9.273486 ^ _15349_/X (sky130_fd_sc_hd__xor2_1)
+                                                         _07423_ (net)
+                      0.363366    0.000383    9.273870 ^ _15352_/A (sky130_fd_sc_hd__xnor2_1)
+     2    0.008261    0.182191    0.309424    9.583294 v _15352_/Y (sky130_fd_sc_hd__xnor2_1)
+                                                         _07426_ (net)
+                      0.182191    0.000544    9.583838 v _15354_/B (sky130_fd_sc_hd__xnor2_1)
+     2    0.012857    0.513314    0.509901   10.093739 ^ _15354_/Y (sky130_fd_sc_hd__xnor2_1)
+                                                         _07428_ (net)
+                      0.513316    0.000911   10.094650 ^ _15358_/A (sky130_fd_sc_hd__xor2_2)
+     3    0.014699    0.334886    0.490815   10.585464 ^ _15358_/X (sky130_fd_sc_hd__xor2_2)
+                                                         _07432_ (net)
+                      0.334887    0.001509   10.586973 ^ _15359_/B (sky130_fd_sc_hd__xor2_1)
+     3    0.008048    0.332474    0.447762   11.034736 ^ _15359_/X (sky130_fd_sc_hd__xor2_1)
+                                                         _07433_ (net)
+                      0.332474    0.000446   11.035181 ^ _15398_/B (sky130_fd_sc_hd__and2_1)
+     3    0.014262    0.239476    0.446173   11.481354 ^ _15398_/X (sky130_fd_sc_hd__and2_1)
+                                                         _07471_ (net)
+                      0.239477    0.001141   11.482495 ^ _15399_/A (sky130_fd_sc_hd__inv_2)
+     1    0.003261    0.051799    0.105342   11.587837 v _15399_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _07472_ (net)
+                      0.051799    0.000139   11.587976 v _15524_/A3 (sky130_fd_sc_hd__o311a_1)
+     2    0.017137    0.209516    0.678799   12.266775 v _15524_/X (sky130_fd_sc_hd__o311a_1)
+                                                         _07593_ (net)
+                      0.209524    0.001669   12.268444 v _15686_/A (sky130_fd_sc_hd__or4b_1)
+     2    0.004944    0.205549    1.297188   13.565633 v _15686_/X (sky130_fd_sc_hd__or4b_1)
+                                                         _07747_ (net)
+                      0.205549    0.000409   13.566041 v _15778_/A1 (sky130_fd_sc_hd__a31o_1)
+     2    0.008998    0.117089    0.431655   13.997696 v _15778_/X (sky130_fd_sc_hd__a31o_1)
+                                                         _07835_ (net)
+                      0.117090    0.000595   13.998291 v _15800_/A1 (sky130_fd_sc_hd__a31o_1)
+     5    0.020635    0.205969    0.473475   14.471766 v _15800_/X (sky130_fd_sc_hd__a31o_1)
+                                                         _07857_ (net)
+                      0.205998    0.002489   14.474256 v _15846_/A1 (sky130_fd_sc_hd__a211o_1)
+     3    0.007766    0.129033    0.592635   15.066891 v _15846_/X (sky130_fd_sc_hd__a211o_1)
+                                                         _07901_ (net)
+                      0.129033    0.000508   15.067398 v _15860_/B (sky130_fd_sc_hd__and3_1)
+     1    0.001706    0.061767    0.345251   15.412649 v _15860_/X (sky130_fd_sc_hd__and3_1)
+                                                         _07914_ (net)
+                      0.061767    0.000123   15.412772 v _15862_/B (sky130_fd_sc_hd__or3_1)
+     1    0.006410    0.173148    0.846626   16.259398 v _15862_/X (sky130_fd_sc_hd__or3_1)
+                                                         _07916_ (net)
+                      0.173148    0.000503   16.259901 v _15863_/B1 (sky130_fd_sc_hd__o211a_1)
+     1    0.002118    0.064926    0.265336   16.525236 v _15863_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _00082_ (net)
+                      0.064926    0.000142   16.525379 v _28221_/D (sky130_fd_sc_hd__dfxtp_1)
+                                             16.525379   data arrival time
+
+                                 20.000000   20.000000   clock clk (rise edge)
+                                  0.000000   20.000000   clock source latency
+     2    0.111566    0.805316    0.573451   20.573452 ^ clk (in)
+                                                         clk (net)
+                      0.808308    0.000000   20.573452 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.186401    0.299989    0.690971   21.264421 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.301529    0.016442   21.280865 ^ clkbuf_2_3_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.112521    0.309627    0.509916   21.790779 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk (net)
+                      0.310508    0.012575   21.803354 ^ clkbuf_4_13__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    27    0.136083    0.228872    0.456152   22.259506 ^ clkbuf_4_13__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_4_13__leaf_clk (net)
+                      0.229541    0.009116   22.268623 ^ clkbuf_leaf_86_clk/A (sky130_fd_sc_hd__clkbuf_8)
+     6    0.025971    0.098048    0.321791   22.590414 ^ clkbuf_leaf_86_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_86_clk (net)
+                      0.098092    0.001929   22.592342 ^ _28221_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                                 -0.250000   22.342344   clock uncertainty
+                                  0.000000   22.342344   clock reconvergence pessimism
+                                 -0.259305   22.083040   library setup time
+                                             22.083040   data required time
+---------------------------------------------------------------------------------------------
+                                             22.083040   data required time
+                                            -16.525379   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.557661   slack (MET)
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/mapped.ys:1-6
+read_liberty -lib /work/results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/slow_liberty.stdout.log
+read_verilog -lib -ignore_redef /work/results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/mapped_cells.v
+read_verilog /work/results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/53-openroad-fillinsertion/phase2_core_4.nl.v
+hierarchy -check -top phase2_core_4
+stat
+write_json /work/results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/mapped.json
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/53-openroad-fillinsertion/phase2_core_4.nl.v:66781-66783
+ sky130_fd_sc_hd__dfxtp_1 _28221_ (.CLK(clknet_leaf_86_clk),
+    .D(_00082_),
+    .Q(\core.rows[2].cols[2].retained_accumulator[31] ));
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/54-odb-cellfrequencytables/phase2_core_4.def:85274-85274
+    - _28221_ sky130_fd_sc_hd__dfxtp_1 + PLACED ( 486680 546720 ) FS ;
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/53-openroad-fillinsertion/phase2_core_4.nl.v:66811-66813
+ sky130_fd_sc_hd__dfxtp_2 _28231_ (.CLK(clknet_leaf_78_clk),
+    .D(_00092_),
+    .Q(\core.forwarded_a[79] ));
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/54-odb-cellfrequencytables/phase2_core_4.def:85284-85284
+    - _28231_ sky130_fd_sc_hd__dfxtp_2 + PLACED ( 388700 391680 ) N ;
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/53-openroad-fillinsertion/phase2_core_4.nl.v:68215-68217
+ sky130_fd_sc_hd__dfxtp_1 _28699_ (.CLK(clknet_leaf_6_clk),
+    .D(_00560_),
+    .Q(\core.rows[0].cols[0].retained_accumulator[0] ));
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/runs/FINAL_002/54-odb-cellfrequencytables/phase2_core_4.def:85752-85752
+    - _28699_ sky130_fd_sc_hd__dfxtp_1 + PLACED ( 8280 326400 ) FN ;
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/snapshots/rtl/systolic_array.sv:44-87
+        for (genvar row = 0; row < ARRAY_SIZE; row = row + 1) begin : rows
+            for (genvar col = 0; col < ARRAY_SIZE; col = col + 1) begin : cols
+                localparam integer CELL = row * ARRAY_SIZE + col;
+                wire signed [7:0] a_in_cell;
+                wire signed [7:0] b_in_cell;
+                wire av, bv, al, bl;
+                // Keep every accumulator cone when a physical wrapper does not
+                // expose the full result bus as package-level pins.
+                (* keep = 1 *) wire signed [31:0] retained_accumulator;
+
+                if (col == 0) begin : left_boundary
+                    assign a_in_cell = a_boundary[8*row +: 8];
+                    assign av = a_valid[row];
+                    assign al = a_last[row];
+                end else begin : left_neighbor
+                    assign a_in_cell = forwarded_a[8*(CELL-1) +: 8];
+                    assign av = forwarded_a_valid[CELL-1];
+                    assign al = forwarded_a_last[CELL-1];
+                end
+                if (row == 0) begin : top_boundary
+                    assign b_in_cell = b_boundary[8*col +: 8];
+                    assign bv = b_valid[col];
+                    assign bl = b_last[col];
+                end else begin : top_neighbor
+                    assign b_in_cell = forwarded_b[8*(CELL-ARRAY_SIZE) +: 8];
+                    assign bv = forwarded_b_valid[CELL-ARRAY_SIZE];
+                    assign bl = forwarded_b_last[CELL-ARRAY_SIZE];
+                end
+
+                (* keep = 1 *) gemm_pe pe (
+                    .clk(clk), .rst(rst), .clear(clear),
+                    .a_in(a_in_cell), .b_in(b_in_cell),
+                    .a_valid(av), .b_valid(bv), .a_last(al), .b_last(bl),
+                    .a_out(forwarded_a[8*CELL +: 8]),
+                    .b_out(forwarded_b[8*CELL +: 8]),
+                    .a_out_valid(forwarded_a_valid[CELL]),
+                    .b_out_valid(forwarded_b_valid[CELL]),
+                    .a_out_last(forwarded_a_last[CELL]),
+                    .b_out_last(forwarded_b_last[CELL]),
+                    .accumulator(retained_accumulator),
+                    .result_valid(result_valid[CELL])
+                );
+                assign accumulators[32*CELL +: 32] = retained_accumulator;
+            end
+
+results/raw/phase2/dac27/round2/physical/cfg_4x4/FINAL_002/snapshots/rtl/gemm_pe.sv:23-49
+    logic signed [31:0] extended_product;
+    assign product = a_in * b_in;
+    assign extended_product = {{16{product[15]}}, product};
+
+    always_ff @(posedge clk) begin
+        if (rst || clear) begin
+            a_out <= '0;
+            b_out <= '0;
+            a_out_valid <= 1'b0;
+            b_out_valid <= 1'b0;
+            a_out_last <= 1'b0;
+            b_out_last <= 1'b0;
+            accumulator <= '0;
+            result_valid <= 1'b0;
+        end else begin
+            a_out <= a_valid ? a_in : 8'sd0;
+            b_out <= b_valid ? b_in : 8'sd0;
+            a_out_valid <= a_valid;
+            b_out_valid <= b_valid;
+            a_out_last <= a_valid && a_last;
+            b_out_last <= b_valid && b_last;
+            if (a_valid && b_valid) begin
+                // The 32-bit destination implements modulo-2^32 wrap.
+                accumulator <= accumulator + extended_product;
+                if (a_last && b_last)
+                    result_valid <= 1'b1;
+            end
